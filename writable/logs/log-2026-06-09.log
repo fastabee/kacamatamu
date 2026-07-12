@@ -1,0 +1,129 @@
+ERROR - 2026-06-09 08:31:14 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php:208
+Stack trace:
+#0 /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php(208): mysqli->set_charset()
+#1 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/groupid/foundation.88group.id/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/groupid/foundation.88group.id/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/groupid/foundation.88group.id/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /home/groupid/foundation.88group.id/app/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+#7 /home/groupid/foundation.88group.id/app/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+#8 /home/groupid/foundation.88group.id/system/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+#9 /home/groupid/foundation.88group.id/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/groupid/foundation.88group.id/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/groupid/foundation.88group.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/groupid/foundation.88group.id/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/groupid/foundation.88group.id/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/groupid/foundation.88group.id/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /home/groupid/foundation.88group.id/app/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+#6 /home/groupid/foundation.88group.id/app/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+#7 /home/groupid/foundation.88group.id/system/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+#8 /home/groupid/foundation.88group.id/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/groupid/foundation.88group.id/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/groupid/foundation.88group.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-06-09 08:31:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-09 08:31:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/groupid/foundation.88group.id/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/groupid/foundation.88group.id/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/groupid/foundation.88group.id/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /home/groupid/foundation.88group.id/app/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+#7 /home/groupid/foundation.88group.id/app/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+#8 /home/groupid/foundation.88group.id/system/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+#9 /home/groupid/foundation.88group.id/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/groupid/foundation.88group.id/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/groupid/foundation.88group.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/groupid/foundation.88group.id/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/groupid/foundation.88group.id/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/groupid/foundation.88group.id/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /home/groupid/foundation.88group.id/app/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+#6 /home/groupid/foundation.88group.id/app/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+#7 /home/groupid/foundation.88group.id/system/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+#8 /home/groupid/foundation.88group.id/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/groupid/foundation.88group.id/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/groupid/foundation.88group.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-06-09 08:31:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-09 08:31:36 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/groupid/foundation.88group.id/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/groupid/foundation.88group.id/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/groupid/foundation.88group.id/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /home/groupid/foundation.88group.id/app/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+#7 /home/groupid/foundation.88group.id/app/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+#8 /home/groupid/foundation.88group.id/system/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+#9 /home/groupid/foundation.88group.id/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/groupid/foundation.88group.id/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/groupid/foundation.88group.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/groupid/foundation.88group.id/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/groupid/foundation.88group.id/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/groupid/foundation.88group.id/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/groupid/foundation.88group.id/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/groupid/foundation.88group.id/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 /home/groupid/foundation.88group.id/app/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+#6 /home/groupid/foundation.88group.id/app/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+#7 /home/groupid/foundation.88group.id/system/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+#8 /home/groupid/foundation.88group.id/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/groupid/foundation.88group.id/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/groupid/foundation.88group.id/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-06-09 08:31:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/ModelPelaksanaanSumbangan.php(98): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/JadwalSumbangan.php(674): App\Models\ModelPelaksanaanSumbangan->getByJadwalDanPenduduk()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

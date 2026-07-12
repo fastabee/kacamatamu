@@ -1,0 +1,990 @@
+INFO - 2026-01-16 00:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 00:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 00:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 00:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 00:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 00:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 00:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 01:11:24 --> BadMethodCallException: Call to undefined method App\Models\ModelPenduduk::getResult
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Penduduk.php(393): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 01:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 01:12:17 --> BadMethodCallException: Call to undefined method App\Models\ModelPenduduk::getResult
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Penduduk.php(393): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 01:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 01:13:11 --> ErrorException: Attempt to read property "status" on null
+in APPPATH\Controllers\Penduduk.php on line 434.
+ 1 APPPATH\Controllers\Penduduk.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on null', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\Penduduk.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 01:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 01:14:26 --> ErrorException: Attempt to read property "status" on null
+in APPPATH\Controllers\Penduduk.php on line 434.
+ 1 APPPATH\Controllers\Penduduk.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on null', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\Penduduk.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 01:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 01:15:21 --> ErrorException: Undefined property: mysqli::$status
+in APPPATH\Controllers\Penduduk.php on line 434.
+ 1 APPPATH\Controllers\Penduduk.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$status', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\Penduduk.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 01:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-16 01:16:14 --> [DEPRECATED] Creation of dynamic property mysqli::$status is deprecated in APPPATH\Controllers\Penduduk.php on line 434.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-16 01:16:14 --> ErrorException: Undefined property: mysqli::$ktp
+in APPPATH\Controllers\Penduduk.php on line 436.
+ 1 APPPATH\Controllers\Penduduk.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$ktp', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\Penduduk.php', 436)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->export_penduduk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 01:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 01:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 02:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 03:00:59 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\WakilPenerima\list.php on line 90.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('WakilPenerima/list', [], true)
+ 4 APPPATH\Views\template.php(48): view('WakilPenerima/list')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\WakilPenerima.php(42): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WakilPenerima->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 03:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 03:29:50 --> BadMethodCallException: Call to undefined method App\Models\ModelWakilPenerima::getWakilPenerimaExportFiltered
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\WakilPenerima.php(345): CodeIgniter\Model->__call('getWakilPenerimaExportFiltered', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WakilPenerima->export_wakil_penerima()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 03:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 03:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 04:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-16 04:06:29 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 04:06:29 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 04:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-16 04:20:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 04:20:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 05:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 05:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 05:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 05:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 05:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 05:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-16 05:49:02 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 05:49:02 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 05:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 05:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-16 05:53:47 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 05:53:47 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 06:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 06:38:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Cetak/undangan_registrasi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Cetak/undangan_registrasi.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 3 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 06:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 06:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:05:36 --> ErrorException: Undefined variable $nama
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 106.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(27): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:10:18 --> ErrorException: Undefined variable $kecamatan
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 126.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 126)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(38): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:39:48 --> Symfony\Component\Process\Exception\ProcessFailedException: The command ""C:\Program Files\nodejs\node.exe" C:\xampp\htdocs\88sumbangan\vendor\spatie\browsershot\src/../bin/browser.cjs "{""url"":""file:\/\/C:\\Windows\\TEMP\\1802240093-0455499001768549188\\index.html"",""action"":""pdf"",""options"":{""path"":""C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads\/undangan.pdf"",""args"":[],""viewport"":{""width"":800,""height"":600},""displayHeaderFooter"":false,""format"":""A4"",""margin"":{""top"":""10mm"",""right"":""10mm"",""bottom"":""10mm"",""left"":""10mm""}}}"" failed.
+
+Exit Code: 1(General error)
+
+Working directory: C:\xampp\htdocs\88sumbangan
+
+Output:
+================
+
+
+Error Output:
+================
+The system cannot find the path specified.
+
+in FCPATH\vendor\spatie\browsershot\src\Browsershot.php on line 1148.
+ 1 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(743): Spatie\Browsershot\Browsershot->callBrowser([...])
+ 2 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(661): Spatie\Browsershot\Browsershot->savePdf('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 3 APPPATH\Controllers\TestPdf.php(30): Spatie\Browsershot\Browsershot->save('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:40:15 --> Symfony\Component\Process\Exception\ProcessFailedException: The command ""C:\Program Files\nodejs\node.exe" C:\xampp\htdocs\88sumbangan\vendor\spatie\browsershot\src/../bin/browser.cjs "{""url"":""file:\/\/C:\\Windows\\TEMP\\547268055-0670439001768549215\\index.html"",""action"":""pdf"",""options"":{""path"":""C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads\/undangan.pdf"",""args"":[],""viewport"":{""width"":800,""height"":600},""displayHeaderFooter"":false,""format"":""A4"",""margin"":{""top"":""10mm"",""right"":""10mm"",""bottom"":""10mm"",""left"":""10mm""}}}"" failed.
+
+Exit Code: 1(General error)
+
+Working directory: C:\xampp\htdocs\88sumbangan
+
+Output:
+================
+
+
+Error Output:
+================
+The system cannot find the path specified.
+
+in FCPATH\vendor\spatie\browsershot\src\Browsershot.php on line 1148.
+ 1 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(743): Spatie\Browsershot\Browsershot->callBrowser([...])
+ 2 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(661): Spatie\Browsershot\Browsershot->savePdf('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 3 APPPATH\Controllers\TestPdf.php(30): Spatie\Browsershot\Browsershot->save('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:41:35 --> Symfony\Component\Process\Exception\ProcessFailedException: The command ""C:/Program Files/nodejs/node.exe" C:\xampp\htdocs\88sumbangan\vendor\spatie\browsershot\src/../bin/browser.cjs "{""url"":""file:\/\/C:\\Windows\\TEMP\\44234970-0423345001768549295\\index.html"",""action"":""pdf"",""options"":{""path"":""C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads\/undangan.pdf"",""args"":[],""viewport"":{""width"":800,""height"":600},""displayHeaderFooter"":false,""format"":""A4""}}"" failed.
+
+Exit Code: 1(General error)
+
+Working directory: C:\xampp\htdocs\88sumbangan
+
+Output:
+================
+
+
+Error Output:
+================
+The system cannot find the path specified.
+
+in FCPATH\vendor\spatie\browsershot\src\Browsershot.php on line 1148.
+ 1 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(743): Spatie\Browsershot\Browsershot->callBrowser([...])
+ 2 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(661): Spatie\Browsershot\Browsershot->savePdf('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 3 APPPATH\Controllers\TestPdf.php(31): Spatie\Browsershot\Browsershot->save('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:44:27 --> Symfony\Component\Process\Exception\ProcessFailedException: The command ""C:/Program Files/nodejs/node.exe" C:\xampp\htdocs\88sumbangan\vendor\spatie\browsershot\src/../bin/browser.cjs "{""url"":""file:\/\/C:\\xampp\\htdocs\\88sumbangan\\writable\\temp\\1997648554-0505014001768549467\\index.html"",""action"":""pdf"",""options"":{""path"":""C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads\/undangan.pdf"",""args"":[""--no-sandbox"",""--disable-setuid-sandbox""],""viewport"":{""width"":800,""height"":600},""displayHeaderFooter"":false,""format"":""A4""}}"" failed.
+
+Exit Code: 1(General error)
+
+Working directory: C:\xampp\htdocs\88sumbangan
+
+Output:
+================
+
+
+Error Output:
+================
+The system cannot find the path specified.
+
+in FCPATH\vendor\spatie\browsershot\src\Browsershot.php on line 1148.
+ 1 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(743): Spatie\Browsershot\Browsershot->callBrowser([...])
+ 2 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(661): Spatie\Browsershot\Browsershot->savePdf('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 3 APPPATH\Controllers\TestPdf.php(42): Spatie\Browsershot\Browsershot->save('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:45:39 --> Symfony\Component\Process\Exception\ProcessFailedException: The command ""C:/Program Files/nodejs/node.exe" C:\xampp\htdocs\88sumbangan\vendor\spatie\browsershot\src/../bin/browser.cjs "{""url"":""file:\/\/C:\\xampp\\htdocs\\88sumbangan\\writable\\temp\\481902876-0900577001768549538\\index.html"",""action"":""pdf"",""options"":{""path"":""C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads\/undangan.pdf"",""args"":[""--no-sandbox"",""--disable-setuid-sandbox""],""viewport"":{""width"":800,""height"":600},""displayHeaderFooter"":false,""format"":""A4""}}"" failed.
+
+Exit Code: 1(General error)
+
+Working directory: C:\xampp\htdocs\88sumbangan
+
+Output:
+================
+
+
+Error Output:
+================
+The system cannot find the path specified.
+
+in FCPATH\vendor\spatie\browsershot\src\Browsershot.php on line 1148.
+ 1 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(743): Spatie\Browsershot\Browsershot->callBrowser([...])
+ 2 FCPATH\vendor\spatie\browsershot\src\Browsershot.php(661): Spatie\Browsershot\Browsershot->savePdf('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 3 APPPATH\Controllers\TestPdf.php(40): Spatie\Browsershot\Browsershot->save('C:\\xampp\\htdocs\\88sumbangan\\writable\\uploads/undangan.pdf')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:47:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template_undangan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_undangan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template_undangan', [], true)
+ 3 APPPATH\Controllers\TestPdf.php(15): view('template_undangan')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:52:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Cetak/registrasi_undangan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Cetak/registrasi_undangan.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/registrasi_undangan', [], true)
+ 3 APPPATH\Controllers\TestPdf.php(16): view('Cetak/registrasi_undangan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 07:53:05 --> Error: Call to a member function get_containing_block() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\AbstractFrameReflower.php on line 125.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(793): Dompdf\FrameReflower\AbstractFrameReflower->determine_absolute_containing_block()
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(915): Dompdf\FrameReflower\Block->reflow(null)
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(915): Dompdf\FrameReflower\Page->reflow(null)
+ 5 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(815): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 6 APPPATH\Controllers\TestPdf.php(28): Dompdf\Dompdf->render()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 07:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 07:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:02:19 --> ErrorException: Undefined variable $nama
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 2.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(16): view('Cetak/undangan_registrasi')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:03:51 --> ErrorException: Array to string conversion
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 412)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(20): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:05:32 --> Error: Object of class mysqli could not be converted to string
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 4 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:05:46 --> ErrorException: Undefined property: mysqli::$ktp
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$ktp', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 412)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:06:59 --> ErrorException: Undefined property: mysqli::$ktp
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$ktp', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 412)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:07:15 --> ErrorException: Undefined property: mysqli::$nama_lengkap
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama_lengkap', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 412)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:08:07 --> ErrorException: Undefined property: stdClass::$nama_lengkap
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_lengkap', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 412)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 08:08:38 --> ErrorException: Undefined property: stdClass::$nama_lengkap
+in APPPATH\Views\Cetak\undangan_registrasi.php on line 412.
+ 1 APPPATH\Views\Cetak\undangan_registrasi.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_lengkap', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php', 412)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi', [], true)
+ 5 APPPATH\Controllers\TestPdf.php(26): view('Cetak/undangan_registrasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 08:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 08:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 09:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 09:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 09:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 09:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 09:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 13:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 13:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 13:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 138.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(138): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-01-16 14:02:00 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\Sumbangan\detail_jadwal.php on line 148.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(148): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(77): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 14:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 14:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-16 15:30:07 --> ErrorException: Undefined array key 3
+in FCPATH\vendor\mpdf\mpdf\src\Color\ColorConverter.php on line 248.
+ 1 FCPATH\vendor\mpdf\mpdf\src\Color\ColorConverter.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\htdocs\\88sumbangan\\vendor\\mpdf\\mpdf\\src\\Color\\ColorConverter.php', 248)
+ 2 FCPATH\vendor\mpdf\mpdf\src\Color\ColorConverter.php(200): Mpdf\Color\ColorConverter->processModeColor('rgba', [...])
+ 3 FCPATH\vendor\mpdf\mpdf\src\Color\ColorConverter.php(52): Mpdf\Color\ColorConverter->convertPlain('rgba(0, 162, 234)', [])
+ 4 FCPATH\vendor\mpdf\mpdf\src\Mpdf.php(18607): Mpdf\Color\ColorConverter->convert('rgba(0, 162, 234)', [])
+ 5 FCPATH\vendor\mpdf\mpdf\src\Tag\BlockTag.php(386): Mpdf\Mpdf->setCSS([...], 'BLOCK', 'DIV')
+ 6 FCPATH\vendor\mpdf\mpdf\src\Tag.php(240): Mpdf\Tag\BlockTag->open([...], [...], 449)
+ 7 FCPATH\vendor\mpdf\mpdf\src\Mpdf.php(13929): Mpdf\Tag->OpenTag('DIV', [...], [...], 449)
+ 8 APPPATH\Controllers\TestPdf.php(39): Mpdf\Mpdf->WriteHTML(' <img src="http://localhost/88sumbangan/public/cetak/header_undangan.png" width="100%"> <table width="100%" cellpadding="0" cellspacing="0"> <tr> <td></td> </tr> <tr> <td class="tanggal"> Bondowoso, 24 Oktober 2026</td> </tr> <tr> <td class="isi"> <table cellpadding="0" cellspacing="0"> <tr> <td><strong>Perihal</strong></td> <td width="10">:</td> <td><strong>UNDANGAN</strong></td> </tr> </table> <br /><table cellpadding="0" cellspacing="0"> <tr> <td>Kepada Yth.</td> <td width="10"></td> <td></td> </tr> <tr> <td>Bapak/Ibu</td> <td width="10">:</td> <td>Misnadi</td> </tr> <tr> <td>NIK</td> <td>:</td> <td>35190200200200</td> </tr> <tr> <td>No. Urut</td> <td>:</td> <td>666</td> </tr> <tr> <td>No. Email</td> <td>:</td> <td>0990990990</td> </tr> <tr> <td valign="top">Alamat</td> <td valign="top">:</td> <td> Desa Sumber Kemuning Dusun Waduk RT 20 RW 3<br />Kec. Tamanan</td> </tr> </table> <br /><table cellpadding="0" cellspacing="0" width="100%"> <tr> <td> Assalamualaikum. Wr. Wb.</td> </tr> </table> <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td> Mengharap dengan hormat kehadiran Bapak/Ibu Penerima Bantuan Sosial Yayasan SUUD Sejahtera Bersama, yang akan dilaksanakan pada:</td> </tr> </table> <br /><table style="margin-left: 40px;" cellpadding="0" cellspacing="0"> <tr> <td width="120">Hari / Tanggal</td> <td width="10">:</td> <td>Kamis, 12 Februari 2026</td> </tr> <tr> <td>Waktu</td> <td>:</td> <td>10.00 – 19.00 WIB</td> </tr> <tr> <td valign="top">Tempat</td> <td valign="top">:</td> <td> PABRIK ROKOK 88<br />Jln. KH. Husnan Toha RT 30 RW 06 Desa Sumber Kemuning<br />Kecamatan Tamanan Kabupaten Bondowoso</td> </tr> <tr> <td>Acara</td> <td>:</td> <td>REGISTRASI ULANG BANSOS</td> </tr> </table> <table style="padding-top: 20px;" cellpadding="0" cellspacing="0" width="100%"> <tr> <td> <p> Demikian undangan ini, atas perhatian dan kehadirannya disampaikan terimakasih.</p> <p>Wassalamualaikum. Wr. Wb</p></td> </tr> </table> <img src="http://localhost/88sumbangan/public/cetak/stempel.png" width="100%"></td> <table cellpadding="0" cellspacing="0" width="100%" style=""> <tr> <td> <strong>Catatan :</strong></td> </tr> </table> <table cellpadding=" 0" cellspacing="0" width="100%" style="margin-top:5px; font-size: 11pt;"> <tr> <td width="30" valign="top" align="center">➢</td> <td> Undangan bersifat WAJIB HADIR Tepat Waktu dan wajib membawa ; <table cellpadding="0" cellspacing="0" style="margin-left:20px; "> <tr> <td width="20">1.</td> <td>Surat Undangan ini.</td> </tr> <tr> <td>2.</td> <td>KK (Kartu Keluarga) Asli &amp; Fotocopy</td> </tr> <tr> <td>3.</td> <td>KTP (Kartu Tanda Penduduk) Asli &amp; Fotocopy</td> </tr> </table></td> </tr> </table> <table cellpadding="0" cellspacing="0" width="100%" style=" font-size: 11pt;"> <tr> <td width="30" valign="top" align="center">➢</td> <td> Tidak boleh diwakilkan kecuali ; <div style="font-weight: bold; margin-left:20px;"> stroke / sakit keras / lumpuh / sangat sepuh. </div></td> </tr> </table> <table cellpadding="0" cellspacing="0" width="100%" style=" font-size: 11pt;"> <tr> <td width="30" valign="top" align="center">➢</td> <td> Bila diwakilkan, maka yang mewakili wajib membawa : <table cellpadding="0" cellspacing="0" style="margin-left:20px; "> <tr> <td width="20">1.</td> <td>KK (Kartu Keluarga) Asli &amp; Fotocopy</td> </tr> <tr> <td>2.</td> <td>KTP (Kartu Tanda Penduduk) Asli &amp; Fotocopy</td> </tr> <tr> <td>3.</td> <td>Wakil Penerima Bansos harus 1 Orang yang tetap</td> </tr> <tr> <td valign="top">4.</td> <td> Menunjukkan Foto Bersama kepada Petugas Bansos yaitu Foto Wakilnya beserta Penerima Bansos memegang Surat Undangan.</td> </tr> </table></td> </tr> </table> </tr> </table> <div style="display: flex; padding-top: 25px;"> <img src="http://localhost/88sumbangan/public/cetak/footer.png" style="height: 80px;"> <div style="width: 100%; background-color: rgba(0, 162, 234);"></div> </div> ')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestPdf->contoh_undangan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestPdf))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-16 15:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 15:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-16 16:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

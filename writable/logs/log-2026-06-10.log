@@ -1,0 +1,8 @@
+CRITICAL - 2026-06-10 13:05:41 --> ErrorException: Undefined array key "tercetak"
+in APPPATH/Models/ModelPenduduk.php on line 649.
+ 1 APPPATH/Models/ModelPenduduk.php(649): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/JadwalSumbangan.php(637): App\Models\ModelPenduduk->getPendudukByPelaksanaanfiltered()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_semuaundangan()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,4 @@
+- [x] Add HTML for tanggal cetak date input filter in the filter section
+- [x] Add JavaScript custom search function for filtering by tanggal cetak date
+- [x] Update the reset filter button to clear the date input
+- [x] Update export, print, and export penduduk scripts to include tanggal cetak parameter

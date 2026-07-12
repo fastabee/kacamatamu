@@ -1,0 +1,549 @@
+INFO - 2026-02-09 01:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-09 01:32:04 --> ErrorException: Undefined variable $pe
+in APPPATH\Views\Sumbangan\detail_jadwal.php on line 146.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pe', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php', 146)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(50): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(80): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('5')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 01:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-09 01:32:29 --> ErrorException: Undefined property: stdClass::$tercetak
+in APPPATH\Views\Sumbangan\detail_jadwal.php on line 174.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tercetak', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php', 174)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(50): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(80): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('5')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 01:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 01:34:32 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(293): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 01:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-09 01:49:27 --> ErrorException: Undefined variable $pe
+in APPPATH\Views\Sumbangan\detail_jadwal.php on line 155.
+ 1 APPPATH\Views\Sumbangan\detail_jadwal.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pe', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php', 155)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\detail_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/detail_jadwal', [], true)
+ 5 APPPATH\Views\template.php(50): view('Sumbangan/detail_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(80): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('5')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 01:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 01:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 02:05:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(295): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 02:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 02:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:08:08 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:18:43 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:20:20 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:20:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:21:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:23:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:27:06 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 327.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(327): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:27:56 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:28:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:30:39 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 381.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(381): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:31:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:33:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:33:39 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 269.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(269): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-02-09 04:33:39 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 457.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(457): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:34:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:35:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:37:22 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:37:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 271.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(271): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:38:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 266.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(266): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-02-09 04:38:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 457.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(457): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:41:16 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 323.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(323): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:41:30 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 266.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(266): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-02-09 04:41:30 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 457.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(457): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:43:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 266.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(266): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-02-09 04:43:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 457.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(457): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:44:27 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 266.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(266): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2026-02-09 04:44:27 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 457.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(457): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:46:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:46:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:47:05 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:47:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:47:16 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:48:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 277.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(277): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:49:12 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 275.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(275): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:49:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:51:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:52:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:52:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-09 04:53:02 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php on line 272.
+ 1 APPPATH\Views\Cetak\undangan_registrasi_satuan_setengah.php(272): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Cetak\\undangan_registrasi_satuan_setengah.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cetak/undangan_registrasi_satuan_setengah', [], true)
+ 5 APPPATH\Controllers\JadwalSumbangan.php(296): view('Cetak/undangan_registrasi_satuan_setengah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '573')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-09 04:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 04:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-09 08:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

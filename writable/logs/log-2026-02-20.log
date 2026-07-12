@@ -1,0 +1,192 @@
+INFO - 2026-02-20 01:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 01:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 01:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 01:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 01:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 02:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 02:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 02:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-20 03:11:28 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `pelaksa...', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pelaksa...')
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pelaksa...')
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksa...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\88sumbangan\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\88sumbangan\system\Model.php(807): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\88sumbangan\app\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', Array)
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+#10 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#11 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2026-02-20 03:11:29 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = :tercetak:
+WHERE `sumbangan_idjadwalsumbangan` = :sumbangan_idjadwalsumbangan:
+AND `penduduk_idpenduduk` = :penduduk_idpenduduk:', [...], false)
+ 2 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+ 6 APPPATH\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-20 03:11:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = 1
+WHERE `sumbangan_idjadwalsumbangan` = \'5\'
+AND `penduduk_idpenduduk` = \'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = 1
+WHERE `sumbangan_idjadwalsumbangan` = \'5\'
+AND `penduduk_idpenduduk` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = :tercetak:
+WHERE `sumbangan_idjadwalsumbangan` = :sumbangan_idjadwalsumbangan:
+AND `penduduk_idpenduduk` = :penduduk_idpenduduk:', [...], false)
+ 4 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+ 8 APPPATH\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-20 03:11:29 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = 1
+WHERE `sumbangan_idjadwalsumbangan` = \'5\'
+AND `penduduk_idpenduduk` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = 1
+WHERE `sumbangan_idjadwalsumbangan` = \'5\'
+AND `penduduk_idpenduduk` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = 1
+WHERE `sumbangan_idjadwalsumbangan` = \'5\'
+AND `penduduk_idpenduduk` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = :tercetak:
+WHERE `sumbangan_idjadwalsumbangan` = :sumbangan_idjadwalsumbangan:
+AND `penduduk_idpenduduk` = :penduduk_idpenduduk:', [...], false)
+ 5 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+ 9 APPPATH\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-20 03:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-20 03:11:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), '88sumbangan', 3306, '', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksa...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\88sumbangan\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\88sumbangan\system\Model.php(807): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\88sumbangan\app\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', Array)
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+#10 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#11 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksa...', Array, false)
+#3 C:\xampp\htdocs\88sumbangan\system\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+#4 C:\xampp\htdocs\88sumbangan\system\BaseModel.php(987): CodeIgniter\Model->doUpdate(NULL, Array)
+#5 C:\xampp\htdocs\88sumbangan\system\Model.php(807): CodeIgniter\BaseModel->update(NULL, Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+#7 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', Array)
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#10 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2026-02-20 03:11:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaksanaan_sumbangan` SET `tercetak` = :tercetak:
+WHERE `sumbangan_idjadwalsumbangan` = :sumbangan_idjadwalsumbangan:
+AND `penduduk_idpenduduk` = :penduduk_idpenduduk:', [...], false)
+ 3 SYSTEMPATH\Model.php(393): CodeIgniter\Database\BaseBuilder->update()
+ 4 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 5 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Models\ModelPelaksanaanSumbangan.php(90): CodeIgniter\Model->update()
+ 7 APPPATH\Controllers\JadwalSumbangan.php(261): App\Models\ModelPelaksanaanSumbangan->updateByJadwalDanPenduduk('5', '5', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->print_undangansatuan('5', '5')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-20 03:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-20 03:12:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), '88sumbangan', 3306, '', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\88sumbangan\app\Models\ModelJadwalSumbangan.php(73): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(67): App\Models\ModelJadwalSumbangan->getJadwalById('5')
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('5')
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#3 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\88sumbangan\app\Models\ModelJadwalSumbangan.php(73): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(67): App\Models\ModelJadwalSumbangan->getJadwalById('5')
+#6 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('5')
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-02-20 03:12:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_sumbangan`.*, `kategori_kegiatan`.`nama_kegiatan` as `nama_kategori`
+FROM `jadwal_sumbangan`
+LEFT JOIN `kategori_kegiatan` ON `kategori_kegiatan`.`idkategori_kegiatan` = `jadwal_sumbangan`.`kategori_idkategorikegiatan`
+WHERE `jadwal_sumbangan`.`idjadwal_sumbangan` = :jadwal_sumbangan.idjadwal_sumbangan:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelJadwalSumbangan.php(73): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\JadwalSumbangan.php(67): App\Models\ModelJadwalSumbangan->getJadwalById('5')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-20 03:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 03:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-20 07:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

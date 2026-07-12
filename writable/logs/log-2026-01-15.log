@@ -1,0 +1,1056 @@
+INFO - 2026-01-15 00:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 00:40:20 --> Error: Call to a member function getResult() on array
+in APPPATH\Views\Penduduk\list.php on line 63.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Penduduk/list', [], true)
+ 4 APPPATH\Views\template.php(48): view('Penduduk/list')
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\Penduduk.php(46): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 00:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 00:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 00:53:00 --> ErrorException: Undefined variable $Pe
+in APPPATH\Views\WakilPenerima\list.php on line 63.
+ 1 APPPATH\Views\WakilPenerima\list.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Pe', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\WakilPenerima\\list.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\WakilPenerima\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('WakilPenerima/list', [], true)
+ 5 APPPATH\Views\template.php(48): view('WakilPenerima/list')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\WakilPenerima.php(42): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WakilPenerima->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 00:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-15 01:02:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT J...' at line 1 in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `wakil_p...', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wakil_p...')
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wakil_p...')
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wakil_p...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\88sumbangan\app\Models\ModelWakilPenerima.php(84): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Controllers\WakilPenerima.php(39): App\Models\ModelWakilPenerima->getWakilPenerima()
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\WakilPenerima->index()
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-01-15 01:02:34 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT J...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = :wakil_penerima.deleted:', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\ModelWakilPenerima.php(84): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\WakilPenerima.php(39): App\Models\ModelWakilPenerima->getWakilPenerima()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WakilPenerima->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 01:02:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT J...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = 0')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = :wakil_penerima.deleted:', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\ModelWakilPenerima.php(84): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\WakilPenerima.php(39): App\Models\ModelWakilPenerima->getWakilPenerima()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WakilPenerima->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 01:02:34 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT J...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `wakil_penerima`.*, `-- DATA WILAYAH WAKIL reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `-- DATA PENDUDUK YANG DIWAKILI` `penduduk`.`idpenduduk`, `penduduk`.`nama` AS `wakil_dari`
+FROM `wakil_penerima`
+LEFT JOIN `penduduk` ON `penduduk`.`wakil_idwakil` = `wakil_penerima`.`idwakil_penerima` AND `penduduk`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `wakil_penerima`.`provinsi_idprovinsi_wakilpenerima`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `wakil_penerima`.`kabupaten_idkabupaten_wakilpenerima`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `wakil_penerima`.`kecamatan_idkecamatan_wakilpenerima`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `wakil_penerima`.`desa_iddesa_wakilpenerima`
+WHERE `wakil_penerima`.`deleted` = :wakil_penerima.deleted:', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ModelWakilPenerima.php(84): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\WakilPenerima.php(39): App\Models\ModelWakilPenerima->getWakilPenerima()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WakilPenerima->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WakilPenerima))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-15 01:11:18 --> mysqli_sql_exception: Unknown column 'wakil_penerima.ktp_wakilpenerima ad' in 'field list' in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pendudu...', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pendudu...')
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pendudu...')
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pendudu...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\88sumbangan\app\Models\ModelPenduduk.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Controllers\Penduduk.php(43): App\Models\ModelPenduduk->getPenduduk()
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\Penduduk->index()
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-01-15 01:11:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'wakil_penerima.ktp_wakilpenerima ad' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = :penduduk.deleted:
+AND `penduduk`.`status` IN :penduduk.status:', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\ModelPenduduk.php(101): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Penduduk.php(43): App\Models\ModelPenduduk->getPenduduk()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 01:11:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'wakil_penerima.ktp_wakilpenerima ad' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = 0
+AND `penduduk`.`status` IN (1,2)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = 0
+AND `penduduk`.`status` IN (1,2)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = :penduduk.deleted:
+AND `penduduk`.`status` IN :penduduk.status:', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\ModelPenduduk.php(101): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Penduduk.php(43): App\Models\ModelPenduduk->getPenduduk()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 01:11:18 --> [Caused by] mysqli_sql_exception: Unknown column 'wakil_penerima.ktp_wakilpenerima ad' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = 0
+AND `penduduk`.`status` IN (1,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = 0
+AND `penduduk`.`status` IN (1,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = 0
+AND `penduduk`.`status` IN (1,2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `penduduk`.*, `rekening`.`nama_rekening`, `wakil_penerima`.`nama_wakilpenerima` AS `nama_wakil`, `wakil_penerima`.`ktp_wakilpenerima ad` `ktp_wakil`, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`
+FROM `penduduk`
+LEFT JOIN `rekening` ON `rekening`.`idrekening` = `penduduk`.`rekening_idrekening`
+LEFT JOIN `wakil_penerima` ON `wakil_penerima`.`idwakil_penerima` = `penduduk`.`wakil_idwakil` AND `wakil_penerima`.`deleted` = 0
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+WHERE `penduduk`.`deleted` = :penduduk.deleted:
+AND `penduduk`.`status` IN :penduduk.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ModelPenduduk.php(101): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Penduduk.php(43): App\Models\ModelPenduduk->getPenduduk()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 01:12:34 --> ErrorException: Undefined variable $oe
+in APPPATH\Views\Penduduk\list.php on line 90.
+ 1 APPPATH\Views\Penduduk\list.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $oe', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Penduduk\\list.php', 90)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Penduduk\\list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Penduduk/list', [], true)
+ 5 APPPATH\Views\template.php(48): view('Penduduk/list')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Penduduk.php(46): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penduduk->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 01:27:07 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 01:29:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 01:30:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 01:30:12 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 01:34:14 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 01:34:29 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 01:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 01:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 02:30:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 02:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-15 02:49:28 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\88sumbangan\app\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(250): App\Models\ModelPenduduk->getPendudukById(Array)
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-01-15 02:49:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = :idpenduduk:', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\JadwalSumbangan.php(250): App\Models\ModelPenduduk->getPendudukById([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 02:49:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = :idpenduduk:', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\JadwalSumbangan.php(250): App\Models\ModelPenduduk->getPendudukById([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 02:49:28 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = :idpenduduk:', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\JadwalSumbangan.php(250): App\Models\ModelPenduduk->getPendudukById([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 02:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-15 02:50:17 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\88sumbangan\app\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(264): App\Models\ModelPenduduk->getPendudukById(Array)
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-01-15 02:50:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = :idpenduduk:', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\JadwalSumbangan.php(264): App\Models\ModelPenduduk->getPendudukById([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 02:50:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = :idpenduduk:', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\JadwalSumbangan.php(264): App\Models\ModelPenduduk->getPendudukById([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 02:50:17 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = (\'1\',\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `penduduk`
+WHERE `idpenduduk` = :idpenduduk:', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ModelPenduduk.php(168): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\JadwalSumbangan.php(264): App\Models\ModelPenduduk->getPendudukById([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->update_jadwalsumbangan()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 02:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 02:53:44 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JadwalSumbangan.php on line 310.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\JadwalSumbangan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JadwalSumbangan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JadwalSumbangan')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JadwalSumbangan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 02:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 02:53:45 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JadwalSumbangan.php on line 310.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\JadwalSumbangan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JadwalSumbangan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JadwalSumbangan')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JadwalSumbangan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 02:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 02:53:55 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JadwalSumbangan.php on line 310.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\88sumbangan\\app\\Controllers\\JadwalSumbangan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JadwalSumbangan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JadwalSumbangan')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JadwalSumbangan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 02:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 02:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 03:55:15 --> ParseError: syntax error, unexpected variable "$pe", expecting "," or ";"
+in APPPATH\Views\Sumbangan\list_pelaksanaan.php on line 96.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_pelaksanaan', [], true)
+ 3 APPPATH\Views\template.php(48): view('Sumbangan/list_pelaksanaan')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH\Controllers\JadwalSumbangan.php(331): view('template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->list_pelaksanaan_sumbangan('2')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 03:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-15 03:55:28 --> ErrorException: Undefined property: stdClass::$RT
+in APPPATH\Views\Sumbangan\list_pelaksanaan.php on line 96.
+ 1 APPPATH\Views\Sumbangan\list_pelaksanaan.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$RT', 'C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_pelaksanaan.php', 96)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_pelaksanaan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_pelaksanaan', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_pelaksanaan')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(331): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->list_pelaksanaan_sumbangan('2')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 03:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 04:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 06:04:25 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 06:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 06:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 07:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 07:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 07:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 07:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 07:54:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 07:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-15 08:13:23 --> mysqli_sql_exception: Unknown column 'pelaksanaan_sumbangan.jadwal_idjadwal' in 'on clause' in C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\88sumbangan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pendudu...', 0)
+#1 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pendudu...')
+#2 C:\xampp\htdocs\88sumbangan\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pendudu...')
+#3 C:\xampp\htdocs\88sumbangan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pendudu...', Array, false)
+#4 C:\xampp\htdocs\88sumbangan\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\88sumbangan\app\Models\ModelPenduduk.php(214): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\88sumbangan\app\Controllers\JadwalSumbangan.php(73): App\Models\ModelPenduduk->getPendudukWithStatus('1')
+#7 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+#8 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+#9 C:\xampp\htdocs\88sumbangan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\88sumbangan\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2026-01-15 08:13:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pelaksanaan_sumbangan.jadwal_idjadwal' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = :penduduk.status:
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\ModelPenduduk.php(214): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\JadwalSumbangan.php(73): App\Models\ModelPenduduk->getPendudukWithStatus('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 08:13:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pelaksanaan_sumbangan.jadwal_idjadwal' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = 1
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = 1
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = :penduduk.status:
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\ModelPenduduk.php(214): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\JadwalSumbangan.php(73): App\Models\ModelPenduduk->getPendudukWithStatus('1')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-15 08:13:23 --> [Caused by] mysqli_sql_exception: Unknown column 'pelaksanaan_sumbangan.jadwal_idjadwal' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = 1
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = 1
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = 1
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `penduduk`.*, `reg_provinces`.`name` AS `nama_provinsi`, `reg_regencies`.`name` AS `nama_kabupaten`, `reg_districts`.`name` AS `nama_kecamatan`, `reg_villages`.`name` AS `nama_desa`, `pelaksanaan_sumbangan`.`tanggal_undangan`, `pelaksanaan_sumbangan`.`jam_mulai_undangan`, `pelaksanaan_sumbangan`.`jam_batas_undangan`, CASE 
+            WHEN penduduk.idpenduduk IN (0)
+            THEN \'terpilih\'
+            ELSE \'tidak_terpilih\'
+        END AS status_pilih
+FROM `penduduk`
+LEFT JOIN `reg_provinces` ON `reg_provinces`.`id` = `penduduk`.`provinsi_idprovinsi`
+LEFT JOIN `reg_regencies` ON `reg_regencies`.`id` = `penduduk`.`kabupaten_idkabupaten`
+LEFT JOIN `reg_districts` ON `reg_districts`.`id` = `penduduk`.`kecamatan_idkecamatan`
+LEFT JOIN `reg_villages` ON `reg_villages`.`id` = `penduduk`.`desa_iddesa`
+LEFT JOIN `pelaksanaan_sumbangan` ON `pelaksanaan_sumbangan`.`penduduk_idpenduduk` = `penduduk`.`idpenduduk` AND `pelaksanaan_sumbangan`.`jadwal_idjadwal` = 1
+WHERE `penduduk`.`status` = :penduduk.status:
+ORDER BY 
+        CASE 
+            WHEN penduduk.idpenduduk IN (0) THEN 0
+            ELSE 1
+        END
+    , `penduduk`.`nama` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ModelPenduduk.php(214): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\JadwalSumbangan.php(73): App\Models\ModelPenduduk->getPendudukWithStatus('1')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->detail_jadwal('1')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 08:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-15 08:21:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\Sumbangan\list_jadwal.php on line 54.
+ 1 APPPATH\Views\Sumbangan\list_jadwal.php(54): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\Sumbangan\\list_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Sumbangan/list_jadwal', [], true)
+ 5 APPPATH\Views\template.php(48): view('Sumbangan/list_jadwal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\88sumbangan\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\JadwalSumbangan.php(39): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JadwalSumbangan->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalSumbangan))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-15 08:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 08:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-15 13:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
