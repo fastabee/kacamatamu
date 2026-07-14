@@ -1,1 +1,55 @@
+# ============================================================
+# CodeIgniter 4 — .gitignore
+# ============================================================
+
+# Environment & secrets
 .env
+env
+
+# Writable directory (logs, cache, session, uploads, temp)
+writable/logs/*
+writable/cache/*
+writable/session/*
+writable/uploads/*
+writable/temp/*
+writable/debugbar/*
+writable/mpdf/*
+!writable/logs/.gitkeep
+!writable/cache/.gitkeep
+!writable/session/.gitkeep
+!writable/uploads/.gitkeep
+!writable/temp/.gitkeep
+!writable/debugbar/.gitkeep
+!writable/mpdf/.gitkeep
+
+# Composer dependencies
+vendor/
+
+# Node.js dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+
+# Build / coverage
+build/
+coverage/
+
+# Backup & temp files
+*.bak
+*.tmp
+*.log
+*.sql.gz
