@@ -34,7 +34,7 @@ class StokController extends BaseController
 
         $db      = \Config\Database::connect();
         $builder = $db->table('stok_frame sf')
-            ->select('sf.idstok_frame, f.nama_frame, sf.jumlah')
+            ->select('sf.idstok_frame, sf.idframe, f.nama_frame, sf.jumlah')
             ->join('frame f', 'f.idframe = sf.idframe', 'left');
 
         $total = (clone $builder)->countAllResults(false);
@@ -55,14 +55,13 @@ class StokController extends BaseController
                 'nama_frame' => esc($r['nama_frame']),
                 'jumlah'     => $badge,
                 'aksi'       => '<button class="btn btn-sm btn-primary btn-transaksi"
-                                    data-id="' . $r['idstok_frame'] . '"
-                                    data-iditem="' . $r['idstok_frame'] . '"
+                                    data-iditem="' . $r['idframe'] . '"
                                     data-nama="' . esc($r['nama_frame']) . '"
                                     data-stok="' . $r['jumlah'] . '">
                                     <i class="ti ti-arrows-exchange"></i> Transaksi
                                  </button>
                                  <button class="btn btn-sm btn-outline-secondary btn-riwayat"
-                                    data-id="' . $r['idstok_frame'] . '"
+                                    data-iditem="' . $r['idframe'] . '"
                                     data-nama="' . esc($r['nama_frame']) . '">
                                     <i class="ti ti-history"></i>
                                  </button>',
@@ -70,8 +69,10 @@ class StokController extends BaseController
         }
 
         return $this->response->setJSON([
-            'draw' => intval($draw), 'recordsTotal' => $total,
-            'recordsFiltered' => $filtered, 'data' => $data,
+            'draw' => intval($draw),
+            'recordsTotal' => $total,
+            'recordsFiltered' => $filtered,
+            'data' => $data,
         ]);
     }
 
@@ -149,7 +150,8 @@ class StokController extends BaseController
         $filtered = (clone $builder)->countAllResults(false);
         $rows     = $builder->limit($length, $start)->get()->getResultArray();
 
-        $no = $start + 1; $data = [];
+        $no = $start + 1;
+        $data = [];
         foreach ($rows as $r) {
             $badge = $r['jumlah'] <= 5
                 ? '<span class="badge bg-danger">' . $r['jumlah'] . '</span>'
@@ -173,8 +175,10 @@ class StokController extends BaseController
         }
 
         return $this->response->setJSON([
-            'draw' => intval($draw), 'recordsTotal' => $total,
-            'recordsFiltered' => $filtered, 'data' => $data,
+            'draw' => intval($draw),
+            'recordsTotal' => $total,
+            'recordsFiltered' => $filtered,
+            'data' => $data,
         ]);
     }
 
@@ -248,7 +252,8 @@ class StokController extends BaseController
         $filtered = (clone $builder)->countAllResults(false);
         $rows     = $builder->limit($length, $start)->get()->getResultArray();
 
-        $no = $start + 1; $data = [];
+        $no = $start + 1;
+        $data = [];
         foreach ($rows as $r) {
             $badge = $r['jumlah'] <= 5
                 ? '<span class="badge bg-danger">' . $r['jumlah'] . '</span>'
@@ -272,8 +277,10 @@ class StokController extends BaseController
         }
 
         return $this->response->setJSON([
-            'draw' => intval($draw), 'recordsTotal' => $total,
-            'recordsFiltered' => $filtered, 'data' => $data,
+            'draw' => intval($draw),
+            'recordsTotal' => $total,
+            'recordsFiltered' => $filtered,
+            'data' => $data,
         ]);
     }
 

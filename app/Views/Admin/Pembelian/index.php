@@ -105,7 +105,9 @@
                             </tr>
                         </thead>
                         <tbody id="tbodyItem">
-                            <tr id="trEmpty"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>
+                            <tr id="trEmpty">
+                                <td colspan="6" class="text-center text-muted">Belum ada item</td>
+                            </tr>
                         </tbody>
                         <tfoot>
                             <tr class="fw-bold">
@@ -142,94 +144,127 @@
 </div>
 
 <script>
-const BASE = "<?= base_url() ?>";
+    const BASE = "<?= base_url() ?>";
 
-// ===== DataTable =====
-const tblPembelian = $('#tblPembelian').DataTable({
-    processing: true, serverSide: true,
-    ajax: { url: BASE + 'pembelian/datatable', type: 'GET' },
-    columns: [
-        { data: 'no', orderable: false, searchable: false },
-        { data: 'no_pembelian' },
-        { data: 'nama_supplier' },
-        { data: 'total' },
-        { data: 'created_at' },
-        { data: 'input_by' },
-        { data: 'aksi', orderable: false, searchable: false },
-    ],
-    language: { url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/id.json' },
-});
-
-// ===== Format Rupiah =====
-function fmtRp(val) {
-    return parseInt(val || 0).toLocaleString('id-ID');
-}
-function stripRp(val) {
-    return String(val).replace(/\./g, '').replace(/[^0-9]/g, '');
-}
-
-$('#hargaBeli').on('input', function () {
-    let raw = stripRp($(this).val());
-    $(this).val(raw.replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
-});
-
-// ===== Select2 produk dengan AJAX =====
-function initSelectProduk() {
-    $('#selectProduk').select2({
-        dropdownParent: $('#modalTambahPembelian'),
-        width: '100%',
-        theme: 'bootstrap-5',
-        placeholder: '-- Cari Produk --',
-        allowClear: true,
+    // ===== DataTable =====
+    const tblPembelian = $('#tblPembelian').DataTable({
+        processing: true,
+        serverSide: true,
         ajax: {
-            url: BASE + 'pembelian/search-produk',
-            dataType: 'json',
-            delay: 300,
-            data: function (params) {
-                return { jenis: $('#jenisProduk').val(), q: params.term };
-            },
-            processResults: function (data) { return data; },
+            url: BASE + 'pembelian/datatable',
+            type: 'GET'
         },
-    }).on('select2:select', function (e) {
-        const harga = e.params.data.harga ?? 0;
-        $('#hargaBeli').val(fmtRp(harga));
+        columns: [{
+                data: 'no',
+                orderable: false,
+                searchable: false
+            },
+            {
+                data: 'no_pembelian'
+            },
+            {
+                data: 'nama_supplier'
+            },
+            {
+                data: 'total'
+            },
+            {
+                data: 'created_at'
+            },
+            {
+                data: 'input_by'
+            },
+            {
+                data: 'aksi',
+                orderable: false,
+                searchable: false
+            },
+        ],
+        language: {
+            url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/id.json'
+        },
     });
-}
 
-$('#modalTambahPembelian').on('shown.bs.modal', function () {
-    initSelectProduk();
-    $('#idsupplier').select2({ dropdownParent: $('#modalTambahPembelian'), width: '100%', theme: 'bootstrap-5' });
-});
+    // ===== Format Rupiah =====
+    function fmtRp(val) {
+        return parseInt(val || 0).toLocaleString('id-ID');
+    }
 
-// Reset produk select saat jenis berubah
-$('#jenisProduk').on('change', function () {
-    $('#selectProduk').val(null).trigger('change');
-    $('#hargaBeli').val('');
-});
+    function stripRp(val) {
+        return String(val).replace(/\./g, '').replace(/[^0-9]/g, '');
+    }
 
-// Reset modal saat tutup
-$('#modalTambahPembelian').on('hidden.bs.modal', function () {
-    $('#idsupplier').val('').trigger('change');
-    $('#keterangan').val('');
-    $('#tbodyItem').html('<tr id="trEmpty"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
-    $('#grandTotal').text('Rp 0');
-    itemList = [];
-});
+    $('#hargaBeli').on('input', function() {
+        let raw = stripRp($(this).val());
+        $(this).val(raw.replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
+    });
 
-// ===== State item list =====
-let itemList = [];
+    // ===== Select2 produk dengan AJAX =====
+    function initSelectProduk() {
+        $('#selectProduk').select2({
+            dropdownParent: $('#modalTambahPembelian'),
+            width: '100%',
+            theme: 'bootstrap-5',
+            placeholder: '-- Cari Produk --',
+            allowClear: true,
+            ajax: {
+                url: BASE + 'pembelian/search-produk',
+                dataType: 'json',
+                delay: 300,
+                data: function(params) {
+                    return {
+                        jenis: $('#jenisProduk').val(),
+                        q: params.term
+                    };
+                },
+                processResults: function(data) {
+                    return data;
+                },
+            },
+        }).on('select2:select', function(e) {
+            const harga = e.params.data.harga ?? 0;
+            $('#hargaBeli').val(fmtRp(harga));
+        });
+    }
 
-function renderItems() {
-    if (!itemList.length) {
+    $('#modalTambahPembelian').on('shown.bs.modal', function() {
+        initSelectProduk();
+        $('#idsupplier').select2({
+            dropdownParent: $('#modalTambahPembelian'),
+            width: '100%',
+            theme: 'bootstrap-5'
+        });
+    });
+
+    // Reset produk select saat jenis berubah
+    $('#jenisProduk').on('change', function() {
+        $('#selectProduk').val(null).trigger('change');
+        $('#hargaBeli').val('');
+    });
+
+    // Reset modal saat tutup
+    $('#modalTambahPembelian').on('hidden.bs.modal', function() {
+        $('#idsupplier').val('').trigger('change');
+        $('#keterangan').val('');
         $('#tbodyItem').html('<tr id="trEmpty"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
         $('#grandTotal').text('Rp 0');
-        return;
-    }
-    let html = '';
-    let total = 0;
-    itemList.forEach((item, i) => {
-        total += item.subtotal;
-        html += `<tr>
+        itemList = [];
+    });
+
+    // ===== State item list =====
+    let itemList = [];
+
+    function renderItems() {
+        if (!itemList.length) {
+            $('#tbodyItem').html('<tr id="trEmpty"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
+            $('#grandTotal').text('Rp 0');
+            return;
+        }
+        let html = '';
+        let total = 0;
+        itemList.forEach((item, i) => {
+            total += item.subtotal;
+            html += `<tr>
             <td><span class="badge bg-secondary">${item.jenis_produk}</span></td>
             <td>${item.nama_produk}</td>
             <td>Rp ${fmtRp(item.harga_beli)}</td>
@@ -237,90 +272,108 @@ function renderItems() {
             <td>Rp ${fmtRp(item.subtotal)}</td>
             <td><button class="btn btn-sm btn-danger btn-hapus-item" data-idx="${i}"><i class="ti ti-x"></i></button></td>
         </tr>`;
+        });
+        $('#tbodyItem').html(html);
+        $('#grandTotal').text('Rp ' + fmtRp(total));
+    }
+
+    // ===== Tambah Item =====
+    $('#btnTambahItem').on('click', function() {
+        const produkOpt = $('#selectProduk').select2('data')[0];
+        if (!produkOpt || !produkOpt.id) {
+            Swal.fire('Perhatian', 'Pilih produk terlebih dahulu', 'warning');
+            return;
+        }
+        const jumlah = parseInt($('#jumlahItem').val()) || 1;
+        const harga = parseInt(stripRp($('#hargaBeli').val())) || 0;
+        const subtotal = harga * jumlah;
+
+        itemList.push({
+            jenis_produk: $('#jenisProduk').val(),
+            idproduk: produkOpt.id,
+            nama_produk: produkOpt.text,
+            harga_beli: harga,
+            jumlah,
+            subtotal,
+        });
+
+        renderItems();
+        $('#selectProduk').val(null).trigger('change');
+        $('#hargaBeli').val('');
+        $('#jumlahItem').val(1);
     });
-    $('#tbodyItem').html(html);
-    $('#grandTotal').text('Rp ' + fmtRp(total));
-}
 
-// ===== Tambah Item =====
-$('#btnTambahItem').on('click', function () {
-    const produkOpt = $('#selectProduk').select2('data')[0];
-    if (!produkOpt || !produkOpt.id) { Swal.fire('Perhatian', 'Pilih produk terlebih dahulu', 'warning'); return; }
-    const jumlah   = parseInt($('#jumlahItem').val()) || 1;
-    const harga    = parseInt(stripRp($('#hargaBeli').val())) || 0;
-    const subtotal = harga * jumlah;
-
-    itemList.push({
-        jenis_produk: $('#jenisProduk').val(),
-        idproduk:     produkOpt.id,
-        nama_produk:  produkOpt.text,
-        harga_beli:   harga,
-        jumlah,
-        subtotal,
+    // ===== Hapus item dari list =====
+    $(document).on('click', '.btn-hapus-item', function() {
+        itemList.splice($(this).data('idx'), 1);
+        renderItems();
     });
 
-    renderItems();
-    $('#selectProduk').val(null).trigger('change');
-    $('#hargaBeli').val('');
-    $('#jumlahItem').val(1);
-});
+    // ===== Simpan Pembelian =====
+    $('#btnSimpanPembelian').on('click', function() {
+        if (!$('#idsupplier').val()) {
+            Swal.fire('Perhatian', 'Pilih supplier!', 'warning');
+            return;
+        }
+        if (!itemList.length) {
+            Swal.fire('Perhatian', 'Tambahkan minimal 1 item!', 'warning');
+            return;
+        }
 
-// ===== Hapus item dari list =====
-$(document).on('click', '.btn-hapus-item', function () {
-    itemList.splice($(this).data('idx'), 1);
-    renderItems();
-});
+        const total = itemList.reduce((s, i) => s + i.subtotal, 0);
+        const $btn = $(this);
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-1"></span>Menyimpan...');
 
-// ===== Simpan Pembelian =====
-$('#btnSimpanPembelian').on('click', function () {
-    if (!$('#idsupplier').val()) { Swal.fire('Perhatian', 'Pilih supplier!', 'warning'); return; }
-    if (!itemList.length) { Swal.fire('Perhatian', 'Tambahkan minimal 1 item!', 'warning'); return; }
-
-    const total = itemList.reduce((s, i) => s + i.subtotal, 0);
-    const $btn  = $(this);
-    $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-1"></span>Menyimpan...');
-
-    $.ajax({
-        url: BASE + 'pembelian/store', method: 'POST',
-        data: {
-            idsupplier:  $('#idsupplier').val(),
-            keterangan:  $('#keterangan').val(),
-            total,
-            items: JSON.stringify(itemList),
-        },
-        success: function (res) {
-            if (res.status === 'ok') {
-                $('#modalTambahPembelian').modal('hide');
-                tblPembelian.ajax.reload(null, false);
-                Swal.fire({ icon: 'success', title: 'Berhasil', text: res.message, timer: 1800, showConfirmButton: false });
-            } else {
-                Swal.fire('Error', res.message, 'error');
+        $.ajax({
+            url: BASE + 'pembelian/store',
+            method: 'POST',
+            data: {
+                idsupplier: $('#idsupplier').val(),
+                keterangan: $('#keterangan').val(),
+                total,
+                items: JSON.stringify(itemList),
+            },
+            success: function(res) {
+                if (res.status === 'ok') {
+                    $('#modalTambahPembelian').modal('hide');
+                    tblPembelian.ajax.reload(null, false);
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Berhasil',
+                        text: res.message,
+                        timer: 1800,
+                        showConfirmButton: false
+                    });
+                } else {
+                    Swal.fire('Error', res.message, 'error');
+                }
+            },
+            complete: function() {
+                $btn.prop('disabled', false).html('<i class="ti ti-device-floppy me-1"></i> Simpan Pembelian');
             }
-        },
-        complete: function () { $btn.prop('disabled', false).html('<i class="ti ti-device-floppy me-1"></i> Simpan Pembelian'); }
+        });
     });
-});
 
-// ===== Lihat Detail =====
-$(document).on('click', '.btn-detail', function () {
-    const id = $(this).data('id');
-    $('#modalDetailBody').html('<div class="text-center py-4"><span class="spinner-border"></span></div>');
-    $('#modalDetail').modal('show');
+    // ===== Lihat Detail =====
+    $(document).on('click', '.btn-detail', function() {
+        const id = $(this).data('id');
+        $('#modalDetailBody').html('<div class="text-center py-4"><span class="spinner-border"></span></div>');
+        $('#modalDetail').modal('show');
 
-    $.get(BASE + 'pembelian/detail/' + id, function (res) {
-        const p = res.pembelian;
-        let detailHtml = '';
-        res.details.forEach(d => {
-            detailHtml += `<tr>
+        $.get(BASE + 'pembelian/detail/' + id, function(res) {
+            const p = res.pembelian;
+            let detailHtml = '';
+            res.details.forEach(d => {
+                detailHtml += `<tr>
                 <td><span class="badge bg-secondary">${d.jenis_produk}</span></td>
                 <td>${d.nama_produk}</td>
                 <td>Rp ${fmtRp(d.harga_beli)}</td>
                 <td>${d.jumlah}</td>
                 <td>Rp ${fmtRp(d.subtotal)}</td>
             </tr>`;
-        });
+            });
 
-        $('#modalDetailBody').html(`
+            $('#modalDetailBody').html(`
             <div class="row mb-3">
                 <div class="col-md-6">
                     <p class="mb-1"><strong>No. Pembelian:</strong> ${p.no_pembelian}</p>
@@ -334,35 +387,40 @@ $(document).on('click', '.btn-detail', function () {
                 </div>
             </div>
             <table class="table table-bordered table-sm">
-                <thead class="table-dark">
+                <thead class="table-primary">
                     <tr><th>Jenis</th><th>Nama Produk</th><th>Harga Beli</th><th>Jumlah</th><th>Subtotal</th></tr>
                 </thead>
                 <tbody>${detailHtml}</tbody>
             </table>
         `);
+        });
     });
-});
 
-// ===== Hapus =====
-$(document).on('click', '.btn-delete', function () {
-    const id = $(this).data('id');
-    Swal.fire({
-        title: 'Hapus pembelian ini?',
-        text: 'Stok akan di-rollback otomatis',
-        icon: 'warning',
-        showCancelButton: true,
-        confirmButtonText: 'Ya, hapus',
-        cancelButtonText: 'Batal',
-        confirmButtonColor: '#d33',
-    }).then(result => {
-        if (result.isConfirmed) {
-            $.get(BASE + 'pembelian/delete/' + id, function (res) {
-                if (res.status === 'ok') {
-                    tblPembelian.ajax.reload(null, false);
-                    Swal.fire({ icon: 'success', title: 'Dihapus', timer: 1500, showConfirmButton: false });
-                }
-            });
-        }
+    // ===== Hapus =====
+    $(document).on('click', '.btn-delete', function() {
+        const id = $(this).data('id');
+        Swal.fire({
+            title: 'Hapus pembelian ini?',
+            text: 'Stok akan di-rollback otomatis',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Ya, hapus',
+            cancelButtonText: 'Batal',
+            confirmButtonColor: '#d33',
+        }).then(result => {
+            if (result.isConfirmed) {
+                $.get(BASE + 'pembelian/delete/' + id, function(res) {
+                    if (res.status === 'ok') {
+                        tblPembelian.ajax.reload(null, false);
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Dihapus',
+                            timer: 1500,
+                            showConfirmButton: false
+                        });
+                    }
+                });
+            }
+        });
     });
-});
 </script>

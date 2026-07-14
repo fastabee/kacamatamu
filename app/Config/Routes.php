@@ -166,14 +166,25 @@ $routes->get('supplier/delete/(:num)', 'Admin\DataMaster\Supplier::delete/$1', [
 $routes->get('stok/frame',               'Admin\Stok\StokController::frame',            ['filter' => 'auth']);
 $routes->get('stok/frame/datatable',     'Admin\Stok\StokController::datatableFrame',   ['filter' => 'auth']);
 $routes->post('stok/frame/transaksi',    'Admin\Stok\StokController::transaksiFrame',   ['filter' => 'auth']);
-$routes->get('stok/frame/riwayat/(:num)','Admin\Stok\StokController::riwayatFrame/$1', ['filter' => 'auth']);
+$routes->get('stok/frame/riwayat/(:num)', 'Admin\Stok\StokController::riwayatFrame/$1', ['filter' => 'auth']);
 
 $routes->get('stok/lensa',               'Admin\Stok\StokController::lensa',            ['filter' => 'auth']);
 $routes->get('stok/lensa/datatable',     'Admin\Stok\StokController::datatableLensa',   ['filter' => 'auth']);
 $routes->post('stok/lensa/transaksi',    'Admin\Stok\StokController::transaksiLensa',   ['filter' => 'auth']);
-$routes->get('stok/lensa/riwayat/(:num)','Admin\Stok\StokController::riwayatLensa/$1', ['filter' => 'auth']);
+$routes->get('stok/lensa/riwayat/(:num)', 'Admin\Stok\StokController::riwayatLensa/$1', ['filter' => 'auth']);
 
 $routes->get('stok/kacamata',                'Admin\Stok\StokController::kacamata',            ['filter' => 'auth']);
 $routes->get('stok/kacamata/datatable',      'Admin\Stok\StokController::datatableKacamata',   ['filter' => 'auth']);
 $routes->post('stok/kacamata/transaksi',     'Admin\Stok\StokController::transaksiKacamata',   ['filter' => 'auth']);
 $routes->get('stok/kacamata/riwayat/(:num)', 'Admin\Stok\StokController::riwayatKacamata/$1',  ['filter' => 'auth']);
+
+// Stok Opname
+$routes->get('stok-opname',                       'Admin\Stok\StokOpnameController::index',        ['filter' => 'auth']);
+$routes->get('stok-opname/datatable',             'Admin\Stok\StokOpnameController::datatable',    ['filter' => 'auth']);
+$routes->get('stok-opname/create',                'Admin\Stok\StokOpnameController::create',       ['filter' => 'auth']);
+$routes->post('stok-opname/store',                'Admin\Stok\StokOpnameController::store',        ['filter' => 'auth']);
+$routes->get('stok-opname/isi/(:num)',            'Admin\Stok\StokOpnameController::isi/$1',       ['filter' => 'auth']);
+$routes->post('stok-opname/simpan-fisik/(:num)',  'Admin\Stok\StokOpnameController::simpanFisik/$1', ['filter' => 'auth']);
+$routes->post('stok-opname/selesaikan/(:num)',    'Admin\Stok\StokOpnameController::selesaikan/$1',  ['filter' => 'auth']);
+$routes->get('stok-opname/detail/(:num)',         'Admin\Stok\StokOpnameController::detail/$1',    ['filter' => 'auth']);
+$routes->post('stok-opname/hapus/(:num)',         'Admin\Stok\StokOpnameController::hapus/$1',     ['filter' => 'auth']);

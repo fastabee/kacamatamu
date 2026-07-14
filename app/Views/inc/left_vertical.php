@@ -25,7 +25,7 @@
         <nav class="sidebar-nav">
             <ul id="sidebarnav" class="mb-0">
 
-               
+
 
                 <li class="sidebar-item">
                     <a class="sidebar-link primary-hover-bg" href="<?= base_url('/') ?>">
@@ -36,7 +36,7 @@
                     </a>
                 </li>
 
-                
+
 
                 <li class="sidebar-item">
                     <a class="sidebar-link has-arrow primary-hover-bg" href="javascript:void(0)"
@@ -164,6 +164,14 @@
                                 <span class="hide-menu ps-1">Stok Kacamata</span>
                             </a>
                         </li>
+                        <li class="sidebar-item">
+                            <a href="<?= base_url('stok-opname') ?>" class="sidebar-link primary-hover-bg">
+                                <span class="aside-icon p-2 bg-primary-subtle rounded-1">
+                                    <iconify-icon icon="solar:clipboard-check-linear" class="fs-6"></iconify-icon>
+                                </span>
+                                <span class="hide-menu ps-1">Stok Opname</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
 
@@ -176,7 +184,7 @@
                 <div class="card-body p-4">
                     <div class="d-flex align-items-center justify-content-between gap-3">
                         <div class="d-flex align-items-center gap-3">
-                            <img src="<?= base_url('public/assets/images/profile/user-1.jpg') ?>"
+                            <img src="<?= base_url('assets/images/profile/user-1.jpg') ?>"
                                 width="45" height="45"
                                 class="img-fluid rounded-circle" alt="" />
                             <div>

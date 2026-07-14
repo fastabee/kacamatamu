@@ -11,38 +11,38 @@
   <link
     rel="shortcut icon"
     type="image/png"
-    href="<?php echo base_url('public/') ?>foto88/horizontal_88group.png" />
+    href="<?php echo base_url('') ?>foto88/horizontal_88group.png" />
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <!-- Core Css -->
-  <link rel="stylesheet" href="<?php echo base_url('public/') ?>assets/css/styles.css" />
+  <link rel="stylesheet" href="<?php echo base_url('') ?>assets/css/styles.css" />
 
   <title>E-Kacamatamu</title>
 
   <!-- DataTables CSS -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
   <!-- Select2 CSS -->
-  <link rel="stylesheet" href="<?php echo base_url('public/assets/libs/select2/dist/css/select2.min.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/libs/select2/dist/css/select2.min.css') ?>">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css">
   <!-- SweetAlert2 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <!-- Vendor JS - harus sebelum view body -->
-  <script src="<?php echo base_url('public/') ?>assets/js/vendor.min.js"></script>
-  <script src="<?php echo base_url('public/') ?>assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="<?php echo base_url('public/') ?>assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="<?php echo base_url('') ?>assets/js/vendor.min.js"></script>
+  <script src="<?php echo base_url('') ?>assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url('') ?>assets/libs/simplebar/dist/simplebar.min.js"></script>
   <!-- DataTables JS -->
-  <script src="<?php echo base_url('public/assets/libs/datatables.net/js/jquery.dataTables.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/libs/datatables.net/js/jquery.dataTables.min.js') ?>"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
   <!-- Select2 JS -->
-  <script src="<?php echo base_url('public/assets/libs/select2/dist/js/select2.full.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/libs/select2/dist/js/select2.full.min.js') ?>"></script>
 </head>
 
 <body>
   <!-- Preloader -->
   <div class="preloader">
-    <img src="<?php echo base_url('public/') ?>assets/images/logos/loader.svg" alt="loader" class="lds-ripple img-fluid" />
+    <img src="<?php echo base_url('') ?>assets/images/logos/loader.svg" alt="loader" class="lds-ripple img-fluid" />
   </div>
   <div id="main-wrapper">
     <!-- Sidebar Start -->
@@ -249,12 +249,12 @@
       });
     </script>
   <?php endif ?>
-  <script src="<?php echo base_url('public/') ?>assets/js/theme/app.dark.init.js"></script>
-  <script src="<?php echo base_url('public/') ?>assets/js/theme/theme.js"></script>
-  <script src="<?php echo base_url('public/') ?>assets/js/theme/app.min.js"></script>
-  <script src="<?php echo base_url('public/') ?>assets/js/theme/sidebarmenu.js"></script>
-  <script src="<?php echo base_url('public/') ?>assets/js/theme/feather.min.js"></script>
-  <script src="<?php echo base_url('public/assets/js/plugins/toastr-init.js') ?>"></script>
+  <script src="<?php echo base_url('') ?>assets/js/theme/app.dark.init.js"></script>
+  <script src="<?php echo base_url('') ?>assets/js/theme/theme.js"></script>
+  <script src="<?php echo base_url('') ?>assets/js/theme/app.min.js"></script>
+  <script src="<?php echo base_url('') ?>assets/js/theme/sidebarmenu.js"></script>
+  <script src="<?php echo base_url('') ?>assets/js/theme/feather.min.js"></script>
+  <script src="<?php echo base_url('assets/js/plugins/toastr-init.js') ?>"></script>
   <!-- solar icons -->
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 

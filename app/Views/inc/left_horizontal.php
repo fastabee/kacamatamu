@@ -21,14 +21,14 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/index.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/index.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Dashboard</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/index2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/index2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Dashboard 2</span>
                             </a>
@@ -46,91 +46,91 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-calendar.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-calendar.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Calendar</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-kanban.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-kanban.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Kanban</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-chat.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-chat.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Chat</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="<?php echo base_url('public/') ?>dark/app-email.html" aria-expanded="false">
+                            <a class="sidebar-link" href="<?php echo base_url('') ?>dark/app-email.html" aria-expanded="false">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Email</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-contact.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-contact.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Contact Table</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-contact2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-contact2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Contact List</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-notes.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-notes.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Notes</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/app-invoice.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/app-invoice.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Invoice</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/page-user-profile.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/page-user-profile.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">User Profile</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/blog-posts.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/blog-posts.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Posts</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/blog-detail.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/blog-detail.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Detail</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/eco-shop.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/eco-shop.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Shop</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/eco-shop-detail.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/eco-shop-detail.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Shop Detail</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/eco-product-list.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/eco-product-list.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">List</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/eco-checkout.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/eco-checkout.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu">Checkout</span>
                             </a>
@@ -152,102 +152,102 @@
                     <ul aria-expanded="false" class="collapse first-level">
                         <!-- Teachers -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/all-teacher.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/all-teacher.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">All Teachers</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/teacher-details.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/teacher-details.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Teachers Details</span>
                             </a>
                         </li>
                         <!-- Exams -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/exam-schedule.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/exam-schedule.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Exam Schedule</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/exam-result.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/exam-result.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Exam Result</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/exam-result-details.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/exam-result-details.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Exam Result Details</span>
                             </a>
                         </li>
                         <!-- students -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/all-student.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/all-student.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">All Students</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/student-details.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/student-details.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Students Details</span>
                             </a>
                         </li>
                         <!-- classes -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/classes.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/classes.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Classes</span>
                             </a>
                         </li>
                         <!-- attendance -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/attendance.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/attendance.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Attendance</span>
                             </a>
                         </li>
                         <!-- icons -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/icon-tabler.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/icon-tabler.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate"> Tabler Icon</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/page-faq.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/page-faq.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">FAQ</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/page-account-settings.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/page-account-settings.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Account Setting</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/page-pricing.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/page-pricing.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Pricing</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/page-user-profile2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/page-user-profile2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Profile One</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/page-user-profile.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/page-user-profile.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Profile Two</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>landingpage/index.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>landingpage/index.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Landing Page</span>
                             </a>
@@ -271,139 +271,139 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-accordian.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-accordian.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Accordian</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-badge.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-badge.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Badge</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-buttons.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-buttons.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Buttons</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-dropdowns.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-dropdowns.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Dropdowns</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-modals.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-modals.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Modals</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-tab.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-tab.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Tab</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-tooltip-popover.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-tooltip-popover.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Tooltip & Popover</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-notification.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-notification.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Notification</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-progressbar.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-progressbar.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Progressbar</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-pagination.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-pagination.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Pagination</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-typography.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-typography.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Typography</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-bootstrap-ui.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-bootstrap-ui.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Bootstrap UI</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-breadcrumb.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-breadcrumb.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Breadcrumb</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-offcanvas.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-offcanvas.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Offcanvas</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-lists.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-lists.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Lists</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-grid.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-grid.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Grid</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-carousel.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-carousel.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Carousel</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-scrollspy.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-scrollspy.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Scrollspy</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-spinner.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-spinner.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Spinner</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/ui-link.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/ui-link.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Link</span>
                             </a>
@@ -428,98 +428,98 @@
                     <ul aria-expanded="false" class="collapse first-level">
                         <!-- form elements -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-inputs.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-inputs.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Forms Input</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-input-groups.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-input-groups.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Input Groups</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-input-grid.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-input-grid.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Input Grid</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-checkbox-radio.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-checkbox-radio.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Checkbox & Radios</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-bootstrap-touchspin.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-bootstrap-touchspin.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Bootstrap Touchspin</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-bootstrap-switch.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-bootstrap-switch.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Bootstrap Switch</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-select2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-select2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Select2</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-dual-listbox.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-dual-listbox.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Dual Listbox</span>
                             </a>
                         </li>
                         <!-- form inputs -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-basic.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-basic.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Basic Form</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-horizontal.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-horizontal.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Form Horizontal</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-actions.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-actions.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Form Actions</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-row-separator.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-row-separator.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Row Separator</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-bordered.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-bordered.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Form Bordered</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-detail.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-detail.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Form Detail</span>
                             </a>
@@ -527,13 +527,13 @@
 
                         <!-- form wizard -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-wizard.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-wizard.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Form Wizard</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/form-editor-quill.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/form-editor-quill.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Quill Editor</span>
                             </a>
@@ -557,49 +557,49 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-basic.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-basic.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Basic Table</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-dark-basic.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-primary-basic.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Dark Basic Table</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-sizing.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-sizing.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Sizing Table</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-layout-coloured.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-layout-coloured.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Coloured Table Layout</span>
                             </a>
                         </li>
                         <!-- datatable -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-datatable-basic.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-datatable-basic.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Basic Initialisation</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-datatable-api.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-datatable-api.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">API</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/table-datatable-advanced.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/table-datatable-advanced.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Advanced Initialisation</span>
                             </a>
@@ -624,70 +624,70 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-error.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-error.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Error</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-login.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-login.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Side Login</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-login2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-login2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Boxed Login</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-register.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-register.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Side Register</span>
                             </a>
                         </li>
                         <!-- datatable -->
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-register2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-register2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Boxed Register</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-forgot-password.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-forgot-password.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Side Forgot Password</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-forgot-password2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-forgot-password2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Boxed Forgot Password</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-two-steps.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-two-steps.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Side Two Steps</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-two-steps2.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-two-steps2.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Boxed Two Steps</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/authentication-maintenance.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/authentication-maintenance.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Maintenance</span>
                             </a>
@@ -712,14 +712,14 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/icon-tabler.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/icon-tabler.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Tabler Icon</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>dark/icon-solar.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>dark/icon-solar.html" class="sidebar-link">
                                 <span class="sidebar-icon"></span>
                                 <span class="hide-menu text-truncate">Solar Icon</span>
                             </a>
@@ -734,7 +734,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="<?php echo base_url('public/') ?>docs/index.html" class="sidebar-link">
+                            <a href="<?php echo base_url('') ?>docs/index.html" class="sidebar-link">
                                 <i class="ti ti-circle"></i>
                                 <span class="hide-menu">Documentation</span>
                             </a>

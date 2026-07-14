@@ -1,0 +1,371 @@
+INFO - 2026-07-14 07:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 08:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-14 08:56:48 --> mysqli_sql_exception: Table 'unit' already exists in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Migrations/2026-07-14-000001_CreateUnitTable.php(16): CodeIgniter\Database\Forge->createTable('unit')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateUnitTable->up()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2026-07-14 08:57:56 --> mysqli_sql_exception: Table 'unit' already exists in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Migrations/2026-07-14-000001_CreateUnitTable.php(16): CodeIgniter\Database\Forge->createTable('unit')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateUnitTable->up()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2026-07-14 08:58:07 --> mysqli_sql_exception: Table 'unit' already exists in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Migrations/2026-07-14-000001_CreateUnitTable.php(16): CodeIgniter\Database\Forge->createTable('unit')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateUnitTable->up()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2026-07-14 09:02:02 --> mysqli_sql_exception: Table 'unit' already exists in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Migrations/2026-07-14-000001_CreateUnitTable.php(16): CodeIgniter\Database\Forge->createTable('unit')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateUnitTable->up()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2026-07-14 09:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-14 09:08:52 --> mysqli_sql_exception: Table 'gstechno_pos.stok_opname' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Models/StokOpnameModel.php(60): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Controllers/Admin/Stok/StokOpnameController.php(44): App\Models\StokOpnameModel->getDatatable(0, 10, '')
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CodeIgniter.php(941): App\Controllers\Admin\Stok\StokOpnameController->datatable()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Stok\StokOpnameController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2026-07-14 09:08:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gstechno_pos.stok_opname' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`', [], false)
+ 2 APPPATH/Models/StokOpnameModel.php(60): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 APPPATH/Controllers/Admin/Stok/StokOpnameController.php(44): App\Models\StokOpnameModel->getDatatable(0, 10, '')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Stok\StokOpnameController->datatable()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Stok\StokOpnameController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/kacamatamu/public/index.php')
+CRITICAL - 2026-07-14 09:08:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gstechno_pos.stok_opname' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`', [], false)
+ 4 APPPATH/Models/StokOpnameModel.php(60): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 APPPATH/Controllers/Admin/Stok/StokOpnameController.php(44): App\Models\StokOpnameModel->getDatatable(0, 10, '')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Stok\StokOpnameController->datatable()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Stok\StokOpnameController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/kacamatamu/public/index.php')
+CRITICAL - 2026-07-14 09:08:52 --> [Caused by] mysqli_sql_exception: Table 'gstechno_pos.stok_opname' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `stok_opname` `o`
+LEFT JOIN `pegawai` `p` ON `p`.`idpegawai` = `o`.`created_by`', [], false)
+ 5 APPPATH/Models/StokOpnameModel.php(60): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 APPPATH/Controllers/Admin/Stok/StokOpnameController.php(44): App\Models\StokOpnameModel->getDatatable(0, 10, '')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Admin\Stok\StokOpnameController->datatable()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Stok\StokOpnameController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/kacamatamu/public/index.php')
+INFO - 2026-07-14 09:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-14 09:21:46 --> mysqli_sql_exception: Invalid default value for 'created_at' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `s...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Migrations/2026-07-14-000016_CreateStokOpnameTables.php(29): CodeIgniter\Database\Forge->createTable('stok_opname')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateStokOpnameTables->up()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2026-07-14 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 09:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-14 09:57:44 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `un...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `un...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `un...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `un...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/UnitSeeder.php(17): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\UnitSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/MainSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\MainSeeder->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2026-07-14 09:57:54 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `un...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `un...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `un...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `un...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/UnitSeeder.php(17): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\UnitSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/MainSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\MainSeeder->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2026-07-14 09:58:44 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/BahanFrameSeeder.php(22): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\BahanFrameSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/MainSeeder.php(15): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\MainSeeder->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2026-07-14 09:59:06 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/BahanLensaSeeder.php(20): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\BahanLensaSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/MainSeeder.php(16): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\MainSeeder->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2026-07-14 09:59:17 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/BahanLensaSeeder.php(20): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\BahanLensaSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/MainSeeder.php(16): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\MainSeeder->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2026-07-14 09:59:48 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ba...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/BahanLensaSeeder.php(20): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\BahanLensaSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/app/Database/Seeds/MainSeeder.php(16): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Database/Seeder.php(145): App\Database\Seeds\MainSeeder->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kacamatamu/spark(102): CodeIgniter\CLI\Console->run()
+#13 {main}
+INFO - 2026-07-14 10:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-14 10:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

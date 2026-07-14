@@ -114,7 +114,9 @@
                             </tr>
                         </thead>
                         <tbody id="tbodyItemJual">
-                            <tr id="trEmptyJual"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>
+                            <tr id="trEmptyJual">
+                                <td colspan="6" class="text-center text-muted">Belum ada item</td>
+                            </tr>
                         </tbody>
                         <tfoot>
                             <tr class="fw-bold table-light">
@@ -159,96 +161,140 @@
 </div>
 
 <script>
-const BASE_JUAL = "<?= base_url() ?>";
+    const BASE_JUAL = "<?= base_url() ?>";
 
-// ===== DataTable =====
-const tblPenjualan = $('#tblPenjualan').DataTable({
-    processing: true, serverSide: true,
-    ajax: { url: BASE_JUAL + 'penjualan/datatable', type: 'GET' },
-    columns: [
-        { data: 'no', orderable: false, searchable: false },
-        { data: 'no_transaksi' },
-        { data: 'nama_customer' },
-        { data: 'total' },
-        { data: 'diskon' },
-        { data: 'grand_total' },
-        { data: 'created_at' },
-        { data: 'input_by' },
-        { data: 'aksi', orderable: false, searchable: false },
-    ],
-    language: { url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/id.json' },
-});
-
-// ===== Format Rupiah =====
-function fmtRpJ(val) { return parseInt(val || 0).toLocaleString('id-ID'); }
-function stripRpJ(val) { return String(val).replace(/\./g, '').replace(/[^0-9]/g, ''); }
-
-$('#hargaJual, #inputDiskon').on('input', function () {
-    let raw = stripRpJ($(this).val());
-    $(this).val(raw.replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
-    hitungTotalJual();
-});
-
-// ===== Select2 produk AJAX =====
-function initSelectProdukJual() {
-    $('#selectProdukJual').select2({
-        dropdownParent: $('#modalTambahPenjualan'),
-        width: '100%', theme: 'bootstrap-5',
-        placeholder: '-- Cari Produk --', allowClear: true,
+    // ===== DataTable =====
+    const tblPenjualan = $('#tblPenjualan').DataTable({
+        processing: true,
+        serverSide: true,
         ajax: {
-            url: BASE_JUAL + 'penjualan/search-produk',
-            dataType: 'json', delay: 300,
-            data: function (params) {
-                return { jenis: $('#jenisProdukJual').val(), q: params.term };
-            },
-            processResults: function (data) { return data; },
+            url: BASE_JUAL + 'penjualan/datatable',
+            type: 'GET'
         },
-    }).on('select2:select', function (e) {
-        const harga = e.params.data.harga ?? 0;
-        $('#hargaJual').val(fmtRpJ(harga));
+        columns: [{
+                data: 'no',
+                orderable: false,
+                searchable: false
+            },
+            {
+                data: 'no_transaksi'
+            },
+            {
+                data: 'nama_customer'
+            },
+            {
+                data: 'total'
+            },
+            {
+                data: 'diskon'
+            },
+            {
+                data: 'grand_total'
+            },
+            {
+                data: 'created_at'
+            },
+            {
+                data: 'input_by'
+            },
+            {
+                data: 'aksi',
+                orderable: false,
+                searchable: false
+            },
+        ],
+        language: {
+            url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/id.json'
+        },
     });
-}
 
-$('#modalTambahPenjualan').on('shown.bs.modal', function () {
-    initSelectProdukJual();
-    $('#idcustomer').select2({ dropdownParent: $('#modalTambahPenjualan'), width: '100%', theme: 'bootstrap-5' });
-});
-
-$('#jenisProdukJual').on('change', function () {
-    $('#selectProdukJual').val(null).trigger('change');
-    $('#hargaJual').val('');
-});
-
-$('#modalTambahPenjualan').on('hidden.bs.modal', function () {
-    $('#idcustomer').val('').trigger('change');
-    $('#keteranganJual, #inputDiskon').val('');
-    $('#inputDiskon').val('0');
-    $('#tbodyItemJual').html('<tr id="trEmptyJual"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
-    ['#lblTotal','#lblDiskon','#lblGrandTotal'].forEach(id => $(id).text('Rp 0'));
-    itemListJual = [];
-});
-
-// ===== State item =====
-let itemListJual = [];
-
-function hitungTotalJual() {
-    const total     = itemListJual.reduce((s, i) => s + i.subtotal, 0);
-    const diskon    = parseInt(stripRpJ($('#inputDiskon').val())) || 0;
-    const grandTotal = Math.max(0, total - diskon);
-    $('#lblTotal').text('Rp ' + fmtRpJ(total));
-    $('#lblDiskon').text('Rp ' + fmtRpJ(diskon));
-    $('#lblGrandTotal').text('Rp ' + fmtRpJ(grandTotal));
-}
-
-function renderItemsJual() {
-    if (!itemListJual.length) {
-        $('#tbodyItemJual').html('<tr id="trEmptyJual"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
-        hitungTotalJual();
-        return;
+    // ===== Format Rupiah =====
+    function fmtRpJ(val) {
+        return parseInt(val || 0).toLocaleString('id-ID');
     }
-    let html = '';
-    itemListJual.forEach((item, i) => {
-        html += `<tr>
+
+    function stripRpJ(val) {
+        return String(val).replace(/\./g, '').replace(/[^0-9]/g, '');
+    }
+
+    $('#hargaJual, #inputDiskon').on('input', function() {
+        let raw = stripRpJ($(this).val());
+        $(this).val(raw.replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
+        hitungTotalJual();
+    });
+
+    // ===== Select2 produk AJAX =====
+    function initSelectProdukJual() {
+        $('#selectProdukJual').select2({
+            dropdownParent: $('#modalTambahPenjualan'),
+            width: '100%',
+            theme: 'bootstrap-5',
+            placeholder: '-- Cari Produk --',
+            allowClear: true,
+            ajax: {
+                url: BASE_JUAL + 'penjualan/search-produk',
+                dataType: 'json',
+                delay: 300,
+                data: function(params) {
+                    return {
+                        jenis: $('#jenisProdukJual').val(),
+                        q: params.term
+                    };
+                },
+                processResults: function(data) {
+                    return data;
+                },
+            },
+        }).on('select2:select', function(e) {
+            const harga = e.params.data.harga ?? 0;
+            $('#hargaJual').val(fmtRpJ(harga));
+        });
+    }
+
+    $('#modalTambahPenjualan').on('shown.bs.modal', function() {
+        initSelectProdukJual();
+        $('#idcustomer').select2({
+            dropdownParent: $('#modalTambahPenjualan'),
+            width: '100%',
+            theme: 'bootstrap-5'
+        });
+    });
+
+    $('#jenisProdukJual').on('change', function() {
+        $('#selectProdukJual').val(null).trigger('change');
+        $('#hargaJual').val('');
+    });
+
+    $('#modalTambahPenjualan').on('hidden.bs.modal', function() {
+        $('#idcustomer').val('').trigger('change');
+        $('#keteranganJual, #inputDiskon').val('');
+        $('#inputDiskon').val('0');
+        $('#tbodyItemJual').html('<tr id="trEmptyJual"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
+        ['#lblTotal', '#lblDiskon', '#lblGrandTotal'].forEach(id => $(id).text('Rp 0'));
+        itemListJual = [];
+    });
+
+    // ===== State item =====
+    let itemListJual = [];
+
+    function hitungTotalJual() {
+        const total = itemListJual.reduce((s, i) => s + i.subtotal, 0);
+        const diskon = parseInt(stripRpJ($('#inputDiskon').val())) || 0;
+        const grandTotal = Math.max(0, total - diskon);
+        $('#lblTotal').text('Rp ' + fmtRpJ(total));
+        $('#lblDiskon').text('Rp ' + fmtRpJ(diskon));
+        $('#lblGrandTotal').text('Rp ' + fmtRpJ(grandTotal));
+    }
+
+    function renderItemsJual() {
+        if (!itemListJual.length) {
+            $('#tbodyItemJual').html('<tr id="trEmptyJual"><td colspan="6" class="text-center text-muted">Belum ada item</td></tr>');
+            hitungTotalJual();
+            return;
+        }
+        let html = '';
+        itemListJual.forEach((item, i) => {
+            html += `<tr>
             <td><span class="badge bg-secondary">${item.jenis_produk}</span></td>
             <td>${item.nama_produk}</td>
             <td>Rp ${fmtRpJ(item.harga_jual)}</td>
@@ -256,90 +302,104 @@ function renderItemsJual() {
             <td>Rp ${fmtRpJ(item.subtotal)}</td>
             <td><button class="btn btn-sm btn-danger btn-hapus-item-jual" data-idx="${i}"><i class="ti ti-x"></i></button></td>
         </tr>`;
-    });
-    $('#tbodyItemJual').html(html);
-    hitungTotalJual();
-}
+        });
+        $('#tbodyItemJual').html(html);
+        hitungTotalJual();
+    }
 
-// ===== Tambah Item =====
-$('#btnTambahItemJual').on('click', function () {
-    const produkOpt = $('#selectProdukJual').select2('data')[0];
-    if (!produkOpt || !produkOpt.id) { Swal.fire('Perhatian', 'Pilih produk terlebih dahulu', 'warning'); return; }
-    const jumlah   = parseInt($('#jumlahItemJual').val()) || 1;
-    const harga    = parseInt(stripRpJ($('#hargaJual').val())) || 0;
-
-    itemListJual.push({
-        jenis_produk: $('#jenisProdukJual').val(),
-        idproduk:     produkOpt.id,
-        nama_produk:  produkOpt.text,
-        harga_jual:   harga,
-        jumlah,
-        subtotal: harga * jumlah,
-    });
-
-    renderItemsJual();
-    $('#selectProdukJual').val(null).trigger('change');
-    $('#hargaJual').val('');
-    $('#jumlahItemJual').val(1);
-});
-
-$(document).on('click', '.btn-hapus-item-jual', function () {
-    itemListJual.splice($(this).data('idx'), 1);
-    renderItemsJual();
-});
-
-// ===== Simpan Penjualan =====
-$('#btnSimpanPenjualan').on('click', function () {
-    if (!itemListJual.length) { Swal.fire('Perhatian', 'Tambahkan minimal 1 item!', 'warning'); return; }
-
-    const total     = itemListJual.reduce((s, i) => s + i.subtotal, 0);
-    const diskon    = parseInt(stripRpJ($('#inputDiskon').val())) || 0;
-    const $btn      = $(this);
-    $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-1"></span>Menyimpan...');
-
-    $.ajax({
-        url: BASE_JUAL + 'penjualan/store', method: 'POST',
-        data: {
-            idcustomer:  $('#idcustomer').val() || '',
-            keterangan:  $('#keteranganJual').val(),
-            total, diskon,
-            items: JSON.stringify(itemListJual),
-        },
-        success: function (res) {
-            if (res.status === 'ok') {
-                $('#modalTambahPenjualan').modal('hide');
-                tblPenjualan.ajax.reload(null, false);
-                Swal.fire({ icon: 'success', title: 'Berhasil', text: res.message, timer: 1800, showConfirmButton: false });
-            } else {
-                Swal.fire('Error', res.message, 'error');
-            }
-        },
-        complete: function () {
-            $btn.prop('disabled', false).html('<i class="ti ti-device-floppy me-1"></i> Simpan Penjualan');
+    // ===== Tambah Item =====
+    $('#btnTambahItemJual').on('click', function() {
+        const produkOpt = $('#selectProdukJual').select2('data')[0];
+        if (!produkOpt || !produkOpt.id) {
+            Swal.fire('Perhatian', 'Pilih produk terlebih dahulu', 'warning');
+            return;
         }
+        const jumlah = parseInt($('#jumlahItemJual').val()) || 1;
+        const harga = parseInt(stripRpJ($('#hargaJual').val())) || 0;
+
+        itemListJual.push({
+            jenis_produk: $('#jenisProdukJual').val(),
+            idproduk: produkOpt.id,
+            nama_produk: produkOpt.text,
+            harga_jual: harga,
+            jumlah,
+            subtotal: harga * jumlah,
+        });
+
+        renderItemsJual();
+        $('#selectProdukJual').val(null).trigger('change');
+        $('#hargaJual').val('');
+        $('#jumlahItemJual').val(1);
     });
-});
 
-// ===== Lihat Detail =====
-$(document).on('click', '.btn-detail', function () {
-    const id = $(this).data('id');
-    $('#modalDetailJualBody').html('<div class="text-center py-4"><span class="spinner-border"></span></div>');
-    $('#modalDetailJual').modal('show');
+    $(document).on('click', '.btn-hapus-item-jual', function() {
+        itemListJual.splice($(this).data('idx'), 1);
+        renderItemsJual();
+    });
 
-    $.get(BASE_JUAL + 'penjualan/detail/' + id, function (res) {
-        const p = res.penjualan;
-        let rows = '';
-        res.details.forEach(d => {
-            rows += `<tr>
+    // ===== Simpan Penjualan =====
+    $('#btnSimpanPenjualan').on('click', function() {
+        if (!itemListJual.length) {
+            Swal.fire('Perhatian', 'Tambahkan minimal 1 item!', 'warning');
+            return;
+        }
+
+        const total = itemListJual.reduce((s, i) => s + i.subtotal, 0);
+        const diskon = parseInt(stripRpJ($('#inputDiskon').val())) || 0;
+        const $btn = $(this);
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-1"></span>Menyimpan...');
+
+        $.ajax({
+            url: BASE_JUAL + 'penjualan/store',
+            method: 'POST',
+            data: {
+                idcustomer: $('#idcustomer').val() || '',
+                keterangan: $('#keteranganJual').val(),
+                total,
+                diskon,
+                items: JSON.stringify(itemListJual),
+            },
+            success: function(res) {
+                if (res.status === 'ok') {
+                    $('#modalTambahPenjualan').modal('hide');
+                    tblPenjualan.ajax.reload(null, false);
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Berhasil',
+                        text: res.message,
+                        timer: 1800,
+                        showConfirmButton: false
+                    });
+                } else {
+                    Swal.fire('Error', res.message, 'error');
+                }
+            },
+            complete: function() {
+                $btn.prop('disabled', false).html('<i class="ti ti-device-floppy me-1"></i> Simpan Penjualan');
+            }
+        });
+    });
+
+    // ===== Lihat Detail =====
+    $(document).on('click', '.btn-detail', function() {
+        const id = $(this).data('id');
+        $('#modalDetailJualBody').html('<div class="text-center py-4"><span class="spinner-border"></span></div>');
+        $('#modalDetailJual').modal('show');
+
+        $.get(BASE_JUAL + 'penjualan/detail/' + id, function(res) {
+            const p = res.penjualan;
+            let rows = '';
+            res.details.forEach(d => {
+                rows += `<tr>
                 <td><span class="badge bg-secondary">${d.jenis_produk}</span></td>
                 <td>${d.nama_produk}</td>
                 <td>Rp ${fmtRpJ(d.harga_jual)}</td>
                 <td>${d.jumlah}</td>
                 <td>Rp ${fmtRpJ(d.subtotal)}</td>
             </tr>`;
-        });
+            });
 
-        $('#modalDetailJualBody').html(`
+            $('#modalDetailJualBody').html(`
             <div class="row mb-3">
                 <div class="col-md-6">
                     <p class="mb-1"><strong>No. Transaksi:</strong> ${p.no_transaksi}</p>
@@ -357,33 +417,40 @@ $(document).on('click', '.btn-detail', function () {
                 </div>
             </div>
             <table class="table table-bordered table-sm">
-                <thead class="table-dark">
+                <thead class="table-primary">
                     <tr><th>Jenis</th><th>Nama Produk</th><th>Harga Jual</th><th>Jumlah</th><th>Subtotal</th></tr>
                 </thead>
                 <tbody>${rows}</tbody>
             </table>
         `);
+        });
     });
-});
 
-// ===== Hapus =====
-$(document).on('click', '.btn-delete', function () {
-    const id = $(this).data('id');
-    Swal.fire({
-        title: 'Hapus penjualan ini?',
-        text: 'Stok akan di-rollback otomatis',
-        icon: 'warning', showCancelButton: true,
-        confirmButtonText: 'Ya, hapus', cancelButtonText: 'Batal',
-        confirmButtonColor: '#d33',
-    }).then(result => {
-        if (result.isConfirmed) {
-            $.get(BASE_JUAL + 'penjualan/delete/' + id, function (res) {
-                if (res.status === 'ok') {
-                    tblPenjualan.ajax.reload(null, false);
-                    Swal.fire({ icon: 'success', title: 'Dihapus', timer: 1500, showConfirmButton: false });
-                }
-            });
-        }
+    // ===== Hapus =====
+    $(document).on('click', '.btn-delete', function() {
+        const id = $(this).data('id');
+        Swal.fire({
+            title: 'Hapus penjualan ini?',
+            text: 'Stok akan di-rollback otomatis',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Ya, hapus',
+            cancelButtonText: 'Batal',
+            confirmButtonColor: '#d33',
+        }).then(result => {
+            if (result.isConfirmed) {
+                $.get(BASE_JUAL + 'penjualan/delete/' + id, function(res) {
+                    if (res.status === 'ok') {
+                        tblPenjualan.ajax.reload(null, false);
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Dihapus',
+                            timer: 1500,
+                            showConfirmButton: false
+                        });
+                    }
+                });
+            }
+        });
     });
-});
 </script>

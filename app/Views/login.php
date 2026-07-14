@@ -20,10 +20,10 @@
     <link
         rel="shortcut icon"
         type="image/png"
-        href="<?php echo base_url('public/') ?>foto88/horizontal_88group.png" />
+        href="<?php echo base_url('') ?>foto88/horizontal_88group.png" />
 
     <!-- Core Css -->
-    <link rel="stylesheet" href="<?php echo base_url('public/') ?>assets/css/styles.css" />
+    <link rel="stylesheet" href="<?php echo base_url('') ?>assets/css/styles.css" />
 
     <title>E-Kacamatamu</title>
 </head>
@@ -32,7 +32,7 @@
     <!-- Preloader -->
     <div class="preloader">
         <img
-            src="<?php echo base_url('public/') ?>assets/images/logos/loader.svg"
+            src="<?php echo base_url('') ?>assets/images/logos/loader.svg"
             alt="loader"
             class="lds-ripple img-fluid" />
     </div>
@@ -46,11 +46,11 @@
                     <div class="card-body">
                         <a href="#" class="">
                             <img style=" height: 70px;"
-                                src="<?php echo base_url('public/') ?>image/logo_login.png"
+                                src="<?php echo base_url('') ?>image/logo_login.png"
                                 class="light-logo"
                                 alt="Logo-Dark" />
                             <img style=" height: 70px;"
-                                src="<?php echo base_url('public/') ?>image/logo_login.png"
+                                src="<?php echo base_url('') ?>image/logo_login.png"
                                 class="dark-logo"
                                 alt="Logo-light" />
                         </a>
@@ -59,7 +59,7 @@
                             <div class="col-lg-6 col-xl-5 d-none d-lg-block">
                                 <div class="text-center text-lg-start">
                                     <img
-                                        src="<?php echo base_url('public/') ?>image/logo_login.png"
+                                        src="<?php echo base_url('') ?>image/logo_login.png"
                                         alt=""
                                         class="img-fluid" />
                                 </div>
@@ -73,7 +73,7 @@
                                         href="javascript:void(0)"
                                         role="button">
                                         <img
-                                            src="<?php echo base_url('public/') ?>assets/images/svgs/google-icon.svg"
+                                            src="<?php echo base_url('') ?>assets/images/svgs/google-icon.svg"
                                             alt=""
                                             class="img-fluid me-7"
                                             width="24"
@@ -85,7 +85,7 @@
                                         href="javascript:void(0)"
                                         role="button">
                                         <img
-                                            src="<?php echo base_url('public/') ?>assets/images/svgs/icon-facebook.svg"
+                                            src="<?php echo base_url('') ?>assets/images/svgs/icon-facebook.svg"
                                             alt=""
                                             class="img-fluid me-2"
                                             width="24"
@@ -140,7 +140,7 @@
                                         </div>
                                         <a
                                             class="text-primary fw-medium fs-3 fw-bold"
-                                            href="<?php echo base_url('public/') ?>dark/authentication-forgot-password.html">Forgot Password ?</a>
+                                            href="<?php echo base_url('') ?>dark/authentication-forgot-password.html">Forgot Password ?</a>
                                     </div> -->
 
                                     <button class="btn btn-primary w-100 mb-7 rounded-pill" type="submit">Sign In</button>
@@ -150,7 +150,7 @@
                                         <p class="fs-3 mb-0 fw-medium">New to Spike?</p>
                                         <a
                                             class="text-primary fw-bold ms-2 fs-3"
-                                            href="<?php echo base_url('public/') ?>dark/authentication-register.html">Create an account</a>
+                                            href="<?php echo base_url('') ?>dark/authentication-register.html">Create an account</a>
                                     </div> -->
                                 </form>
                             </div>
@@ -484,14 +484,14 @@
         </script>
     <?php endif ?>
     <!-- Import Js Files -->
-    <script src="<?php echo base_url('public/') ?>assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo base_url('public/') ?>assets/libs/simplebar/dist/simplebar.min.js"></script>
-    <script src="<?php echo base_url('public/') ?>assets/js/theme/app.dark.init.js"></script>
-    <script src="<?php echo base_url('public/') ?>assets/js/theme/theme.js"></script>
-    <script src="<?php echo base_url('public/') ?>assets/js/theme/app.min.js"></script>
-    <script src="<?php echo base_url('public/') ?>assets/js/theme/sidebarmenu.js"></script>
-    <script src="<?php echo base_url('public/') ?>assets/js/theme/feather.min.js"></script>
-    <script src="<?php echo base_url('public/assets/js/plugins/toastr-init.js') ?>"></script>
+    <script src="<?php echo base_url('') ?>assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url('') ?>assets/libs/simplebar/dist/simplebar.min.js"></script>
+    <script src="<?php echo base_url('') ?>assets/js/theme/app.dark.init.js"></script>
+    <script src="<?php echo base_url('') ?>assets/js/theme/theme.js"></script>
+    <script src="<?php echo base_url('') ?>assets/js/theme/app.min.js"></script>
+    <script src="<?php echo base_url('') ?>assets/js/theme/sidebarmenu.js"></script>
+    <script src="<?php echo base_url('') ?>assets/js/theme/feather.min.js"></script>
+    <script src="<?php echo base_url('assets/js/plugins/toastr-init.js') ?>"></script>
     <!-- solar icons -->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 </body>

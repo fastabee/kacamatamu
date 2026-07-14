@@ -25,8 +25,8 @@
             </ul>
 
             <div class="d-block d-lg-none">
-                <img src="<?php echo base_url('public/') ?>assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-Dark" />
-                <img src="<?php echo base_url('public/') ?>assets/images/logos/logo-dark.svg" class="light-logo" alt="Logo-light" />
+                <img src="<?php echo base_url('') ?>assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-Dark" />
+                <img src="<?php echo base_url('') ?>assets/images/logos/logo-dark.svg" class="light-logo" alt="Logo-light" />
             </div>
 
 
@@ -280,7 +280,7 @@
                                 <div class="message-body" data-simplebar>
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -295,7 +295,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -311,7 +311,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -327,7 +327,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -343,7 +343,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -391,7 +391,7 @@
                                 <div class="message-body" data-simplebar>
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 fs-3 fw-normal">
@@ -403,7 +403,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 mt-1 fs-3 fw-normal">
@@ -416,7 +416,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 mt-1 fs-3 fw-normal">
@@ -429,7 +429,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 fs-3 fw-normal">
@@ -442,7 +442,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 fs-3 fw-normal">
@@ -472,7 +472,7 @@
                                 aria-expanded="false">
                                 <div class="d-flex align-items-center flex-shrink-0">
                                     <div class="user-profile me-sm-3 me-2">
-                                        <img src="<?php echo base_url('public/') ?>assets/images/profile/user-1.jpg" width="45" class="rounded-circle" alt="">
+                                        <img src="<?php echo base_url('') ?>assets/images/profile/user-1.jpg" width="45" class="rounded-circle" alt="">
                                     </div>
                                     <span class="d-sm-none d-block"><iconify-icon
                                             icon="solar:alt-arrow-down-line-duotone"></iconify-icon></span>
@@ -497,7 +497,7 @@
                                     </div>
 
                                     <div class="d-flex align-items-center mx-7 py-9 border-bottom">
-                                        <img src="<?php echo base_url('public/') ?>assets/images/profile/user-1.jpg" alt="user" width="90" class="rounded-circle" />
+                                        <img src="<?php echo base_url('') ?>assets/images/profile/user-1.jpg" alt="user" width="90" class="rounded-circle" />
                                         <div class="ms-4">
                                             <h4 class="mb-0 fs-5 fw-normal"><?= session('username') ?></h4>
                                             <span class="text-muted">super admin</span>
@@ -509,7 +509,7 @@
                                     </div>
 
                                     <div class="message-body">
-                                        <a href="<?php echo base_url('public/') ?>dark/page-user-profile.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                                        <a href="<?php echo base_url('') ?>dark/page-user-profile.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                             <span class="btn px-3 py-2 bg-info-subtle rounded-1 text-info shadow-none">
                                                 <iconify-icon icon="solar:wallet-2-line-duotone" class="fs-7"></iconify-icon>
                                             </span>
@@ -521,7 +521,7 @@
                                             </div>
                                         </a>
 
-                                        <a href="<?php echo base_url('public/') ?>dark/app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                                        <a href="<?php echo base_url('') ?>dark/app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                             <span class="btn px-3 py-2 bg-success-subtle rounded-1 text-success shadow-none">
                                                 <iconify-icon icon="solar:shield-minimalistic-line-duotone" class="fs-7"></iconify-icon>
                                             </span>
@@ -531,7 +531,7 @@
                                             </div>
                                         </a>
 
-                                        <a href="<?php echo base_url('public/') ?>dark/app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                                        <a href="<?php echo base_url('') ?>dark/app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                             <span class="btn px-3 py-2 bg-danger-subtle rounded-1 text-danger shadow-none">
                                                 <iconify-icon icon="solar:card-2-line-duotone" class="fs-7"></iconify-icon>
                                             </span>
@@ -568,7 +568,7 @@
             aria-labelledby="offcanvasWithBothOptionsLabel">
             <nav class="sidebar-nav scroll-sidebar">
                 <div class="offcanvas-header justify-content-between">
-                    <img src="<?php echo base_url('public/') ?>assets/images/logos/favicon.png" alt="" class="img-fluid" />
+                    <img src="<?php echo base_url('') ?>assets/images/logos/favicon.png" alt="" class="img-fluid" />
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body h-n80" data-simplebar>
@@ -582,7 +582,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-chat.svg" alt="" class="img-fluid" width="24" height="24" />
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-chat.svg" alt="" class="img-fluid" width="24" height="24" />
                                         </div>
                                         <div class="d-inline-block">
                                             <h6 class="mb-1 bg-hover-primary">Chat Application</h6>
@@ -593,7 +593,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-invoice.svg" alt="" class="img-fluid" width="24" height="24" />
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-invoice.svg" alt="" class="img-fluid" width="24" height="24" />
                                         </div>
                                         <div class="d-inline-block">
                                             <h6 class="mb-1 bg-hover-primary">Invoice App</h6>
@@ -604,7 +604,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-mobile.svg" alt="" class="img-fluid" width="24" height="24" />
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-mobile.svg" alt="" class="img-fluid" width="24" height="24" />
                                         </div>
                                         <div class="d-inline-block">
                                             <h6 class="mb-1 bg-hover-primary">Contact Application</h6>
@@ -615,7 +615,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-message-box.svg" alt="" class="img-fluid" width="24"
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-message-box.svg" alt="" class="img-fluid" width="24"
                                                 height="24" />
                                         </div>
                                         <div class="d-inline-block">
@@ -627,7 +627,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-cart.svg" alt="" class="img-fluid" width="24" height="24" />
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-cart.svg" alt="" class="img-fluid" width="24" height="24" />
                                         </div>
                                         <div class="d-inline-block">
                                             <h6 class="mb-1 bg-hover-primary">User Profile</h6>
@@ -638,7 +638,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-date.svg" alt="" class="img-fluid" width="24" height="24" />
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-date.svg" alt="" class="img-fluid" width="24" height="24" />
                                         </div>
                                         <div class="d-inline-block">
                                             <h6 class="mb-1 bg-hover-primary">Calendar App</h6>
@@ -649,7 +649,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-lifebuoy.svg" alt="" class="img-fluid" width="24"
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-lifebuoy.svg" alt="" class="img-fluid" width="24"
                                                 height="24" />
                                         </div>
                                         <div class="d-inline-block">
@@ -661,7 +661,7 @@
                                 <li class="sidebar-item py-2">
                                     <a href="#" class="d-flex align-items-center">
                                         <div class="text-bg-light rounded-1 me-3 p-6 d-flex align-items-center justify-content-center">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/svgs/icon-dd-application.svg" alt="" class="img-fluid" width="24"
+                                            <img src="<?php echo base_url('') ?>assets/images/svgs/icon-dd-application.svg" alt="" class="img-fluid" width="24"
                                                 height="24" />
                                         </div>
                                         <div class="d-inline-block">
@@ -726,8 +726,8 @@
             <ul class="navbar-nav">
                 <li class="nav-item d-none d-xl-block">
                     <a href="index.html" class="text-nowrap nav-link">
-                        <img src="<?php echo base_url('public/') ?>assets/images/logos/logo-light.svg" class="dark-logo" width="180" alt="" />
-                        <img src="<?php echo base_url('public/') ?>assets/images/logos/logo-dark.svg" class="light-logo" width="180" alt="" />
+                        <img src="<?php echo base_url('') ?>assets/images/logos/logo-light.svg" class="dark-logo" width="180" alt="" />
+                        <img src="<?php echo base_url('') ?>assets/images/logos/logo-dark.svg" class="light-logo" width="180" alt="" />
                     </a>
                 </li>
             </ul>
@@ -981,7 +981,7 @@
                                 <div class="message-body" data-simplebar>
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -996,7 +996,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1012,7 +1012,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1028,7 +1028,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1044,7 +1044,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-7 d-flex align-items-center py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-100 d-inline-block v-middle ps-3">
                                             <div class="d-flex align-items-center justify-content-between">
@@ -1092,7 +1092,7 @@
                                 <div class="message-body" data-simplebar>
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-2.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 fs-3 fw-normal">
@@ -1104,7 +1104,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-3.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 mt-1 fs-3 fw-normal">
@@ -1117,7 +1117,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-4.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 mt-1 fs-3 fw-normal">
@@ -1130,7 +1130,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-5.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 fs-3 fw-normal">
@@ -1143,7 +1143,7 @@
 
                                     <a href="javascript:void(0)" class="dropdown-item px-2 d-flex align-items-center px-7 py-6">
                                         <span class="flex-shrink-0">
-                                            <img src="<?php echo base_url('public/') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
+                                            <img src="<?php echo base_url('') ?>assets/images/profile/user-6.jpg" alt="user" width="45" class="rounded-circle" />
                                         </span>
                                         <div class="w-75 d-inline-block v-middle ps-3">
                                             <h5 class="mb-0 fs-3 fw-normal">
@@ -1173,7 +1173,7 @@
                                 aria-expanded="false">
                                 <div class="d-flex align-items-center flex-shrink-0">
                                     <div class="user-profile me-sm-3 me-2">
-                                        <img src="<?php echo base_url('public/') ?>assets/images/profile/user-1.jpg" width="45" class="rounded-circle" alt="">
+                                        <img src="<?php echo base_url('') ?>assets/images/profile/user-1.jpg" width="45" class="rounded-circle" alt="">
                                     </div>
                                     <span class="d-sm-none d-block"><iconify-icon
                                             icon="solar:alt-arrow-down-line-duotone"></iconify-icon></span>
@@ -1198,7 +1198,7 @@
                                     </div>
 
                                     <div class="d-flex align-items-center mx-7 py-9 border-bottom">
-                                        <img src="<?php echo base_url('public/') ?>assets/images/profile/user-1.jpg" alt="user" width="90" class="rounded-circle" />
+                                        <img src="<?php echo base_url('') ?>assets/images/profile/user-1.jpg" alt="user" width="90" class="rounded-circle" />
                                         <div class="ms-4">
                                             <h4 class="mb-0 fs-5 fw-normal"><?= session('username') ?></h4>
                                             <span class="text-muted">super admin</span>
@@ -1210,7 +1210,7 @@
                                     </div>
 
                                     <div class="message-body">
-                                        <a href="<?php echo base_url('public/') ?>dark/page-user-profile.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                                        <a href="<?php echo base_url('') ?>dark/page-user-profile.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                             <span class="btn px-3 py-2 bg-info-subtle rounded-1 text-info shadow-none">
                                                 <iconify-icon icon="solar:wallet-2-line-duotone" class="fs-7"></iconify-icon>
                                             </span>
@@ -1222,7 +1222,7 @@
                                             </div>
                                         </a>
 
-                                        <a href="<?php echo base_url('public/') ?>dark/app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                                        <a href="<?php echo base_url('') ?>dark/app-email.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                             <span class="btn px-3 py-2 bg-success-subtle rounded-1 text-success shadow-none">
                                                 <iconify-icon icon="solar:shield-minimalistic-line-duotone" class="fs-7"></iconify-icon>
                                             </span>
@@ -1232,7 +1232,7 @@
                                             </div>
                                         </a>
 
-                                        <a href="<?php echo base_url('public/') ?>dark/app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
+                                        <a href="<?php echo base_url('') ?>dark/app-notes.html" class="dropdown-item px-7 d-flex align-items-center py-6">
                                             <span class="btn px-3 py-2 bg-danger-subtle rounded-1 text-danger shadow-none">
                                                 <iconify-icon icon="solar:card-2-line-duotone" class="fs-7"></iconify-icon>
                                             </span>
@@ -1245,7 +1245,7 @@
                                     </div>
 
                                     <div class="py-6 px-7 mb-1">
-                                        <a href="<?php echo base_url('public/') ?>dark/authentication-login.html" class="btn btn-primary w-100">Log Out</a>
+                                        <a href="<?php echo base_url('') ?>dark/authentication-login.html" class="btn btn-primary w-100">Log Out</a>
                                     </div>
                                 </div>
                             </div>
